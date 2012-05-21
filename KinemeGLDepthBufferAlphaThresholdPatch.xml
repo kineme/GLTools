@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch sets the threshold for Depth Buffer writing when drawing transparent pixels.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Depth Buffer Alpha Threshold</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+
+		<key>inputThreshold</key>
+		<dict>
+			<key>description</key>
+			<string>The threshold where transparent pixels no longer affect the Depth Buffer</string>
+			<key>name</key>
+			<string>Threshold</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

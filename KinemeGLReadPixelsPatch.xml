@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch outputs an image of the Composition's viewer window at the time it is execute.  This means it doesn't see stuff drawn in higher layers.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Read Pixels</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputSource</key>
+		<dict>
+			<key>description</key>
+			<string>Which pixels to read</string>
+			<key>name</key>
+			<string>Source</string>
+			<key>menu</key>
+			<array>
+				<string>Color buffer</string>
+				<string>Depth Buffer</string>
+			</array>
+		</dict>
+		<key>inputRecord</key>
+		<dict>
+			<key>description</key>
+			<string>Signals when to read</string>
+			<key>name</key>
+			<string>Read</string>			
+		</dict>
+		<key>inputIsFlipped</key>
+		<dict>
+			<key>description</key>
+			<string>Reading from inside a Render In Image can produce upside down results.</string>
+			<key>name</key>
+			<string>Flipped</string>			
+		</dict>
+		
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputImage</key>
+		<dict>
+			<key>description</key>
+			<string>The output image</string>
+			<key>name</key>
+			<string>Output Image</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

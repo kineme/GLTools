@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch modifies the GL Blend Equation.  Add is the default mode.
+
+Your subpatch objects' blend mode must be set to Over or Add for this patch to have any effect.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Blend Equation</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputRGBEquation</key>
+		<dict>
+			<key>description</key>
+			<string>RGB Blend Equation</string>
+			<key>name</key>
+			<string>RGB Equation</string>
+			<key>menu</key>
+			<array>
+				<string>Add</string>
+				<string>Subtract</string>
+				<string>Reverse Subtract</string>
+				<string>Min</string>
+				<string>Max</string>
+			</array>
+		</dict>
+		<key>inputAlphaEquation</key>
+		<dict>
+			<key>description</key>
+			<string>Alpha Blend Equation</string>
+			<key>name</key>
+			<string>Alpha Equation</string>
+			<key>menu</key>
+			<array>
+				<string>Add</string>
+				<string>Subtract</string>
+				<string>Reverse Subtract</string>
+				<string>Min</string>
+				<string>Max</string>
+			</array>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

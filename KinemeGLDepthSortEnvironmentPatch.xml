@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch ...
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Depth Sort Environment</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputFrontPolygonMode</key>
+		<dict>
+			<key>description</key>
+			<string>Which mode to render front-facing polygons in, wireframe, point, or solid</string>
+			<key>name</key>
+			<string>Front-Facing Polygon Mode</string>
+			<key>menu</key>
+			<array>
+				<string>Textured</string>
+				<string>Wireframe</string>
+				<string>Points</string>
+			</array>
+		</dict>
+		<key>inputBackPolygonMode</key>
+		<dict>
+			<key>description</key>
+			<string>Which mode to render back-facing polygons in: wireframe, point, or solid</string>
+			<key>name</key>
+			<string>Back-Facing Polygon Mode</string>
+			<key>menu</key>
+			<array>
+				<string>Textured</string>
+				<string>Wireframe</string>
+				<string>Points</string>
+			</array>
+		</dict>
+		<key>inputFaces</key>
+		<dict>
+			<key>description</key>
+			<string>Which faces to render; Front, Back, or both</string>
+			<key>name</key>
+			<string>Faces</string>
+			<key>menu</key>
+			<array>
+				<string>Both</string>
+				<string>Front faces</string>
+				<string>Back faces</string>
+			</array>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>The Line's width</string>
+			<key>name</key>
+			<string>Line Width</string>
+		</dict>
+		<key>inputAntialiasLines</key>
+		<dict>
+			<key>description</key>
+			<string>Enables line antialiasing</string>
+			<key>name</key>
+			<string>Line Antialiasing</string>
+		</dict>
+		<key>inputStipplePattern</key>
+		<dict>
+			<key>description</key>
+			<string>16-bit Stipple pattern [0-65535]</string>
+			<key>name</key>
+			<string>Line Stipple Pattern</string>
+		</dict>
+		<key>inputRepeatCount</key>
+		<dict>
+			<key>description</key>
+			<string>How many times the Stipple pattern repeats</string>
+			<key>name</key>
+			<string>Stipple Repeat Count</string>
+		</dict>
+
+		<key>inputSize</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's size</string>
+			<key>name</key>
+			<string>Point Size</string>
+		</dict>
+		<key>inputAntialiasPoints</key>
+		<dict>
+			<key>description</key>
+			<string>Enables point antialiasing</string>
+			<key>name</key>
+			<string>Point Antialiasing</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

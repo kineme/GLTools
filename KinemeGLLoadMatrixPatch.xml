@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch loads a GL Matrix directly.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Load Matrix</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputMatrix</key>
+		<dict>
+			<key>description</key>
+			<string>Selects which matrix to load, Projection or Model View</string>
+			<key>name</key>
+			<string>Matrix</string>
+			<key>menu</key>
+			<array>
+				<string>Projection Matrix</string>
+				<string>Model View Matrix</string>
+			</array>
+		</dict>
+		<key>inputTranspose</key>
+		<dict>
+			<key>description</key>
+			<string>Tranposes the input matrix (row-major instead of column-major)</string>
+			<key>name</key>
+			<string>Transpose</string>
+		</dict>
+
+		<key>input00</key>
+		<dict>
+			<key>description</key>
+			<string>(0,0)</string>
+			<key>name</key>
+			<string>(0,0)</string>
+		</dict>
+		<key>input01</key>
+		<dict>
+			<key>description</key>
+			<string>(0,1)</string>
+			<key>name</key>
+			<string>(0,1)</string>
+		</dict>
+		<key>input02</key>
+		<dict>
+			<key>description</key>
+			<string>(0,2)</string>
+			<key>name</key>
+			<string>(0,2)</string>
+		</dict>
+		<key>input03</key>
+		<dict>
+			<key>description</key>
+			<string>(0,3)</string>
+			<key>name</key>
+			<string>(0,3)</string>
+		</dict>
+
+		<key>input10</key>
+		<dict>
+			<key>description</key>
+			<string>(1,0)</string>
+			<key>name</key>
+			<string>(1,0)</string>
+		</dict>
+		<key>input11</key>
+		<dict>
+			<key>description</key>
+			<string>(1,1)</string>
+			<key>name</key>
+			<string>(1,1)</string>
+		</dict>
+		<key>input12</key>
+		<dict>
+			<key>description</key>
+			<string>(1,2)</string>
+			<key>name</key>
+			<string>(1,2)</string>
+		</dict>
+		<key>input13</key>
+		<dict>
+			<key>description</key>
+			<string>(1,3)</string>
+			<key>name</key>
+			<string>(1,3)</string>
+		</dict>
+
+		<key>input20</key>
+		<dict>
+			<key>description</key>
+			<string>(2,0)</string>
+			<key>name</key>
+			<string>(2,0)</string>
+		</dict>
+		<key>input21</key>
+		<dict>
+			<key>description</key>
+			<string>(2,1)</string>
+			<key>name</key>
+			<string>(2,1)</string>
+		</dict>
+		<key>input22</key>
+		<dict>
+			<key>description</key>
+			<string>(2,2)</string>
+			<key>name</key>
+			<string>(2,2)</string>
+		</dict>
+		<key>input23</key>
+		<dict>
+			<key>description</key>
+			<string>(2,3)</string>
+			<key>name</key>
+			<string>(2,3)</string>
+		</dict>
+
+		<key>input30</key>
+		<dict>
+			<key>description</key>
+			<string>(3,0)</string>
+			<key>name</key>
+			<string>(3,0)</string>
+		</dict>
+		<key>input31</key>
+		<dict>
+			<key>description</key>
+			<string>(3,1)</string>
+			<key>name</key>
+			<string>(3,1)</string>
+		</dict>
+		<key>input32</key>
+		<dict>
+			<key>description</key>
+			<string>(3,2)</string>
+			<key>name</key>
+			<string>(3,2)</string>
+		</dict>
+		<key>input33</key>
+		<dict>
+			<key>description</key>
+			<string>(3,3)</string>
+			<key>name</key>
+			<string>(3,3)</string>
+		</dict>
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

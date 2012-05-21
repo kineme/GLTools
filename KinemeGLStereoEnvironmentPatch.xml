@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders its child patches twice, once for the right eye, once for the left eye, and provides each as an image output.
+
+Object Z just translates all the geometry within the environment (equivalent to the standard 3D Transformation patch).
+
+Screen Z defines the confocal plane --- where both the left eye and right eye will see the same image. As geometry diverges from the Screen Z value, the image locations in the left and right eyes will diverge.
+
+Geometry closer than Near Z Clip and further than Far Z Clip is culled.
+
+IOD (IntraOcular Distance) defines the separation between the eyes. Larger IOD leads to greater image divergence.
+
+If you set Screen Z and Object Z to the same magnitude, opposite sign (e.g., Screen Z = 10, Object Z = -10), an object placed at the origin within the environment (e.g., a Sphere with default values) will be visible, rendered with center at 10 units from the camera. The image will diverge slightly as it approaches the camera.
+
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Stereo Environment</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputBypass</key>
+		<dict>
+			<key>description</key>
+			<string>Setting this to True disables Ortho Mode (reverts to Perspective Mode)</string>
+			<key>name</key>
+			<string>Bypass</string>
+		</dict>
+		<key>inputZObject</key>
+		<dict>
+			<key>description</key>
+			<string>Object Z translates all the geometry within the environment (equivalent to the standard 3D Transformation patch).</string>
+			<key>name</key>
+			<string>Object Z</string>
+		</dict>
+		<key>inputYFov</key>
+		<dict>
+			<key>description</key>
+			<string>Field of View</string>
+			<key>name</key>
+			<string>FOV</string>
+		</dict>
+		<key>inputZNear</key>
+		<dict>
+			<key>description</key>
+			<string>Geometry closer than Near Z Clip and further than Far Z Clip is culled.</string>
+			<key>name</key>
+			<string>Near Z Clip</string>
+		</dict>
+		<key>inputZScreen</key>
+		<dict>
+			<key>description</key>
+			<string>Screen Z defines the confocal plane — where both the left eye and right eye will see the same image. As geometry diverges from the Screen Z value, the image locations in the left and right eyes will diverge.</string>
+			<key>name</key>
+			<string>Screen Z</string>
+		</dict>
+		<key>inputZFar</key>
+		<dict>
+			<key>description</key>
+			<string>Geometry closer than Near Z Clip and further than Far Z Clip is culled.</string>
+			<key>name</key>
+			<string>Far Z Clip</string>
+		</dict>
+		<key>inputIOD</key>
+		<dict>
+			<key>description</key>
+			<string>Intraocular Distance (IOD) defines the separation between the eyes. Larger IOD leads to greater image divergence.</string>
+			<key>name</key>
+			<string>IOD</string>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>Pixels Wide</string>
+			<key>name</key>
+			<string>Pixels Wide</string>
+		</dict>
+		<key>inputHeight</key>
+		<dict>
+			<key>description</key>
+			<string>Pixels High</string>
+			<key>name</key>
+			<string>Pixels High</string>
+		</dict>
+		
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputImageLeft</key>
+		<dict>
+			<key>description</key>
+			<string>Left Image</string>
+			<key>name</key>
+			<string>Left Image</string>
+		</dict>
+		<key>outputImageRight</key>
+		<dict>
+			<key>description</key>
+			<string>Right Image</string>
+			<key>name</key>
+			<string>Right Image</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>- Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>- Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders a GL Mesh structure.
+
+Despite being in the public release of GL Tools, this patch is considered a Beta and should not be used in a production environment.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Grid Renderer</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputStructure</key>
+		<dict>
+			<key>description</key>
+			<string>Grid structure to render</string>
+			<key>name</key>
+			<string>Structure Input</string>
+		</dict>
+		<key>inputWireFrame</key>
+		<dict>
+			<key>description</key>
+			<string>Controls whether or not to render a white wireframe over the mesh</string>
+			<key>name</key>
+			<string>Wireframe</string>
+			<key>menu</key>
+				<array>
+					<string>None</string>
+					<string>Triangles</string>
+					<string>Quads</string>
+				</array>
+		</dict>
+		<key>inputSubdivisionAmount</key>
+		<dict>
+			<key>description</key>
+			<string>Subdivide quads (useful for faking perspective projection)</string>
+			<key>name</key>
+			<string>Subdivision Level</string>
+		</dict>
+		<key>inputSelection</key>
+		<dict>
+			<key>description</key>
+			<string>Selected input.  Used with the Highlighter to help visualize grid-modification</string>
+			<key>name</key>
+			<string>Selected Point</string>
+		</dict>
+		<key>inputHighlightSelection</key>
+		<dict>
+			<key>description</key>
+			<string>Determines whether or not a highlight point will be drawn over the currently selected point.</string>
+			<key>name</key>
+			<string>Highlight Selection</string>
+		</dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image to texture the grid with.</string>
+			<key>name</key>
+			<string>Image</string>
+		</dict>
+		<key>inputColor</key>
+		<dict>
+			<key>description</key>
+			<string>Grid color</string>
+			<key>name</key>
+			<string>Color</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

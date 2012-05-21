@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders a spline using a series of OpenGL line segments.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Spline</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputStipple</key>
+		<dict>
+			<key>description</key>
+			<string>16-bit Stipple Pattern [0-65536]</string>
+			<key>name</key>
+			<string>Stipple Pattern</string>
+		</dict>
+		<key>inputStippleScale</key>
+		<dict>
+			<key>description</key>
+			<string>Stipple Pattern scale</string>
+			<key>name</key>
+			<string>Stipple Scale</string>
+		</dict>
+		<key>inputSubdivisions</key>
+		<dict>
+			<key>description</key>
+			<string>How many steps to take between points</string>
+			<key>name</key>
+			<string>Subdivisions</string>
+		</dict>
+		<key>inputTension</key>
+		<dict>
+			<key>description</key>
+			<string>Controls how weights are scaled on the spline</string>
+			<key>name</key>
+			<string>Tension</string>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>Controls how wide to draw the spline</string>
+			<key>name</key>
+			<string>Width</string>
+		</dict>
+		<key>inputShowPoints</key>
+		<dict>
+			<key>description</key>
+			<string>Controls whether or not to render points at each control point</string>
+			<key>name</key>
+			<string>Show Points</string>
+		</dict>
+		<key>inputShowSubdivisionPoints</key>
+		<dict>
+			<key>description</key>
+			<string>Controls whether or not to render points at each subdivision point</string>
+			<key>name</key>
+			<string>Show Subdivision Points</string>
+		</dict>
+		<key>inputPointSize</key>
+		<dict>
+			<key>description</key>
+			<string>When showing points, controls the point size.</string>
+			<key>name</key>
+			<string>Point Size</string>
+		</dict>
+		<key>inputUsePointColor</key>
+		<dict>
+			<key>description</key>
+			<string>When showing points, uses the specified color rather than the spline's color</string>
+			<key>name</key>
+			<string>Use Point Color</string>
+		</dict>
+
+		<key>inputPointColor</key>
+		<dict>
+			<key>description</key>
+			<string>When showing points, controls the point color</string>
+			<key>name</key>
+			<string>Point Color</string>
+		</dict>
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

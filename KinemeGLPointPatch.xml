@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders a single OpenGL Point at a user-specified location with a user-specified color.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Point</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputX</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's X Coordinate</string>
+			<key>name</key>
+			<string>X Position</string>
+		</dict>
+		<key>inputY</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's Y Coordinate</string>
+			<key>name</key>
+			<string>Y Position</string>
+		</dict>
+		<key>inputZ</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's Z Coordinate</string>
+			<key>name</key>
+			<string>Z Position</string>
+		</dict>
+		<key>inputSize</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's Size</string>
+			<key>name</key>
+			<string>Size</string>
+		</dict>
+		<key>inputAttenuate</key>
+		<dict>
+			<key>description</key>
+			<string>Attenuate the point's size based on distance</string>
+			<key>name</key>
+			<string>Attenuate</string>
+		</dict>		
+		<key>inputColor</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's Color</string>
+			<key>name</key>
+			<string>Color</string>
+		</dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's Texture</string>
+			<key>name</key>
+			<string>Image</string>
+		</dict>
+		
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

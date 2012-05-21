@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2010 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders its subpatches multiple times --- once for each element in the provided structure, after applying the specified transformation.  
+
+Each transformation structure can contain the following subelements:
+X,Y,Z: Translation
+SX,SY,SZ: Scale
+RX,RY,RZ: Rotation
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Structure Renderer</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputTransformStructure</key>
+		<dict>
+			<key>description</key>
+			<string>Structure of transformations to apply to internal geometry.  Each transformation structure can contain the following elements:
+X,Y,Z: Translation
+SX,SY,SZ: Scale
+RX,RY,RZ: Rotation</string>
+			<key>name</key>
+			<string>Transform Structure</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

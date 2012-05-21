@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch modifies the GL Projection Matrix to use a frustum-based projection.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Frustum</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputBypass</key>
+		<dict>
+			<key>description</key>
+			<string>Setting this to True disables the matrix modification this patch makes.</string>
+			<key>name</key>
+			<string>Bypass</string>
+		</dict>
+		<key>inputLeft</key>
+		<dict>
+			<key>description</key>
+			<string>Left Clip Plane</string>
+			<key>name</key>
+			<string>Left</string>
+		</dict>
+		<key>inputRight</key>
+		<dict>
+			<key>description</key>
+			<string>Right Clip Plane</string>
+			<key>name</key>
+			<string>Right</string>
+		</dict>
+		<key>inputBottom</key>
+		<dict>
+			<key>description</key>
+			<string>Bottom Clip Plane</string>
+			<key>name</key>
+			<string>Bottom</string>
+		</dict>
+		<key>inputTop</key>
+		<dict>
+			<key>description</key>
+			<string>Top Clip Plane</string>
+			<key>name</key>
+			<string>Top</string>
+		</dict>
+		<key>inputNear</key>
+		<dict>
+			<key>description</key>
+			<string>Near Clip Plane</string>
+			<key>name</key>
+			<string>Near</string>
+		</dict>
+		<key>inputFar</key>
+		<dict>
+			<key>description</key>
+			<string>Far Clip Plane</string>
+			<key>name</key>
+			<string>Far</string>
+		</dict>
+		
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

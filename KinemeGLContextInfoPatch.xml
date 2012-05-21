@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch returns some information about the OpenGL Context.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Context Info</string>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputBitsRed</key>
+		<dict>
+			<key>description</key>
+			<string>Red Bits</string>
+			<key>name</key>
+			<string>Red Bits</string>
+		</dict>
+		<key>outputBitsGreen</key>
+		<dict>
+			<key>description</key>
+			<string>Green Bits</string>
+			<key>name</key>
+			<string>Green Bits</string>
+		</dict>
+		<key>outputBitsBlue</key>
+		<dict>
+			<key>description</key>
+			<string>Blue Bits</string>
+			<key>name</key>
+			<string>Blue Bits</string>
+		</dict>
+		<key>outputBitsAlpha</key>
+		<dict>
+			<key>description</key>
+			<string>Alpha Bits</string>
+			<key>name</key>
+			<string>Alpha Bits</string>
+		</dict>
+
+		<key>outputBitsAccumRed</key>
+		<dict>
+			<key>description</key>
+			<string>Accum Red Bits</string>
+			<key>name</key>
+			<string>Accum Red Bits</string>
+		</dict>
+		<key>outputBitsAccumGreen</key>
+		<dict>
+			<key>description</key>
+			<string>Accum Green Bits</string>
+			<key>name</key>
+			<string>Accum Green Bits</string>
+		</dict>
+		<key>outputBitsAccumBlue</key>
+		<dict>
+			<key>description</key>
+			<string>Accum Blue Bits</string>
+			<key>name</key>
+			<string>Accum Blue Bits</string>
+		</dict>
+		<key>outputBitsAccumAlpha</key>
+		<dict>
+			<key>description</key>
+			<string>Accum Alpha Bits</string>
+			<key>name</key>
+			<string>Accum Alpha Bits</string>
+		</dict>
+
+		<key>outputBitsDepth</key>
+		<dict>
+			<key>description</key>
+			<string>Depth Bits</string>
+			<key>name</key>
+			<string>Depth Bits</string>
+		</dict>
+
+		<key>outputBitsStencil</key>
+		<dict>
+			<key>description</key>
+			<string>Stencil Bits</string>
+			<key>name</key>
+			<string>Stencil Bits</string>
+		</dict>
+		
+		<key>outputMinPointTextureSize</key>
+		<dict>
+			<key>name</key>
+			<string>Minimum Point Texture Size</string>
+			<key>description</key>
+			<string>Minimum texture size for textured Points</string>
+		</dict>
+		
+		<key>outputMaxPointTextureSize</key>
+		<dict>
+			<key>name</key>
+			<string>Maximum Point Texture Size</string>
+			<key>description</key>
+			<string>Maximum texture size for textured Points</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

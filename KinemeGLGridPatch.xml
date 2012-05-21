@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>- Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>- Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch outputs a grid of vertexes.  It also allows for deformation of the grid.
+
+Despite being in the public release of GL Tools, this patch is considered a Beta and should not be used in a production environment.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Grid Generator</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputHeight</key>
+		<dict>
+			<key>description</key>
+			<string>Number of Rows in the grid</string>
+			<key>name</key>
+			<string>Grid Height</string>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>Number of Columns in the grid</string>
+			<key>name</key>
+			<string>Grid Width</string>
+		</dict>
+		<key>inputSelectionEnabled</key>
+		<dict>
+			<key>description</key>
+			<string>Enables modification of the currently selected point</string>
+			<key>name</key>
+			<string>Selection Enabled</string>
+		</dict>
+		<key>inputSelection</key>
+		<dict>
+			<key>description</key>
+			<string>Currently Selected Point for modification</string>
+			<key>name</key>
+			<string>Selection</string>
+		</dict>
+		<key>inputX</key>
+		<dict>
+			<key>description</key>
+			<string>X Location for the currently selected point</string>
+			<key>name</key>
+			<string>X Position</string>
+		</dict>
+		<key>inputY</key>
+		<dict>
+			<key>description</key>
+			<string>Y Location for the currently selected point</string>
+			<key>name</key>
+			<string>Y Position</string>
+		</dict>
+		<key>inputZ</key>
+		<dict>
+			<key>description</key>
+			<string>Z Location for the currently selected point</string>
+			<key>name</key>
+			<string>Z Position</string>
+		</dict>
+		<key>inputU</key>
+		<dict>
+			<key>description</key>
+			<string>U Texture coordinate for the currently selected point</string>
+			<key>name</key>
+			<string>U Texture Coordinate</string>
+		</dict>
+		<key>inputV</key>
+		<dict>
+			<key>description</key>
+			<string>V Texture coordinate for the currently selected point</string>
+			<key>name</key>
+			<string>V Texture Coordinate</string>
+		</dict>
+		<key>inputColor</key>
+		<dict>
+			<key>description</key>
+			<string>Color for the currently selected point</string>
+			<key>name</key>
+			<string>Color</string>
+		</dict>
+
+		<key>inputCommitChanges</key>
+		<dict>
+			<key>description</key>
+			<string>Commits the current inputs to the currently selected point</string>
+			<key>name</key>
+			<string>Commit Changes</string>
+		</dict>
+		<key>inputAutoIncrementOnCommit</key>
+		<dict>
+			<key>description</key>
+			<string>Increments the selection automatically when changes are committed</string>
+			<key>name</key>
+			<string>Auto-Increment on Commit</string>
+		</dict>
+		<key>inputResetGrid</key>
+		<dict>
+			<key>description</key>
+			<string>Resets the grid to default settings</string>
+			<key>name</key>
+			<string>Reset</string>
+		</dict>
+	</dict>
+	
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputGrid</key>
+		<dict>
+			<key>description</key>
+			<string>The outpt grid structure</string>
+			<key>name</key>
+			<string>Output Structure</string>
+		</dict>
+		<key>outputSelection</key>
+		<dict>
+			<key>description</key>
+			<string>The currently selected point</string>
+			<key>name</key>
+			<string>Current Selection</string>
+		</dict>
+	</dict>
+	
+</dict>
+</plist>

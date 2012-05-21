@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch modifies rendered polygons' offsets.  This is useful for rendering with
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Polygon Offset</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputFactor</key>
+		<dict>
+			<key>description</key>
+			<string>offset factor (default is 0).  This scales the depth.</string>
+			<key>name</key>
+			<string>Factor</string>
+		</dict>
+		<key>inputUnits</key>
+		<dict>
+			<key>description</key>
+			<string>offset units (default is 0).  This adds an offset to the depth.</string>
+			<key>name</key>
+			<string>Units</string>
+		</dict>		
+	</dict>
+</dict>
+</plist>

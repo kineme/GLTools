@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2010 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>If the "Lighting Bypass" input is enabled, subpatches will be rendered unlit (i.e., full brightness).
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Lighting Bypass</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputLightingBypass</key>
+		<dict>
+			<key>description</key>
+			<string>Lighting Bypass</string>
+			<key>name</key>
+			<string>Lighting Bypass</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

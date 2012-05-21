@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders a series of OpenGL Lines specified by the Input Lines structure.
+
+The Input Lines structure should contain a series of 3-element structures, one for each endpoint.  Endpoints can be specified as either the first three array elements ([0], [1], and [2]), or capitalized named values ('X', 'Y', and 'Z').
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Line Structure</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputLines</key>
+		<dict>
+			<key>description</key>
+			<string>A structure containing a series of 3-element structures, one for each endpoint.
+Endpoints can be specified as either the first three array elements ([0], [1], and [2]),
+or capitalized named values ('X', 'Y', and 'Z').</string>
+			<key>name</key>
+			<string>Input Lines</string>
+		</dict>
+		<key>inputPattern</key>
+		<dict>
+			<key>description</key>
+			<string>16-bit Stipple pattern [0-65535]</string>
+			<key>name</key>
+			<string>Stipple Pattern</string>
+		</dict>
+		<key>inputRepeatCount</key>
+		<dict>
+			<key>description</key>
+			<string>How many times the Stipple pattern repeats</string>
+			<key>name</key>
+			<string>Stipple Repeat Count</string>
+		</dict>
+		<key>inputSize</key>
+		<dict>
+			<key>description</key>
+			<string>The line's width, in pixels</string>
+			<key>name</key>
+			<string>Line Width</string>
+		</dict>
+		<key>inputColor1</key>
+		<dict>
+			<key>description</key>
+			<string>Point 1's Color</string>
+			<key>name</key>
+			<string>Color 1</string>
+		</dict>
+		<key>inputColor2</key>
+		<dict>
+			<key>description</key>
+			<string>Point 2's Color</string>
+			<key>name</key>
+			<string>Color 2</string>
+		</dict>
+		<key>inputType</key>
+		<dict>
+			<key>description</key>
+			<string>The Line Type (line segments, or a continuous line strip)</string>
+			<key>name</key>
+			<string>Line Type</string>
+			<key>menu</key>
+			<array>
+				<string>Line Strip</string>
+				<string>Line Segments</string>
+			</array>		
+		</dict>
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

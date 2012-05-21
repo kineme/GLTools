@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch modifies the GL Color Write Mask to enable or disable writes to Red, Green, Blue, and Alpha components independently.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Color Mask</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputRed</key>
+		<dict>
+			<key>description</key>
+			<string>Enable Writes to the Red Channel</string>
+			<key>name</key>
+			<string>Red</string>
+		</dict>
+		<key>inputGreen</key>
+		<dict>
+			<key>description</key>
+			<string>Enable Writes to the Green Channel</string>
+			<key>name</key>
+			<string>Green</string>
+		</dict>
+		<key>inputBlue</key>
+		<dict>
+			<key>description</key>
+			<string>Enable Writes to the Blue Channel</string>
+			<key>name</key>
+			<string>Blue</string>
+		</dict>
+		<key>inputAlpha</key>
+		<dict>
+			<key>description</key>
+			<string>Enable Writes to the Alpha Channel</string>
+			<key>name</key>
+			<string>Alpha</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

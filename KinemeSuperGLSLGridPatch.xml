@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch functions like the built-in GLSL patch, but allows you to control the GLSL parameters on a per-grid basis.  
+Provide an input structure with the corresponding GLSL uniform names, and the new values, and it will use those values instead of the GLSL Shader's defaults.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>Super GLSL Grid</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputParameters</key>
+		<dict>
+			<key>description</key>
+			<string>The GLSL uniform values to set upon execution</string>
+			<key>name</key>
+			<string>Uniform Parameters</string>
+		</dict>
+		<key>inputXPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Grid's X Position</string>
+			<key>name</key>
+			<string>X Position</string>
+		</dict>
+		<key>inputYPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Grid's Y Position</string>
+			<key>name</key>
+			<string>Y Position</string>
+		</dict>
+		<key>inputZPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Grid's Z Position</string>
+			<key>name</key>
+			<string>Z Position</string>
+		</dict>
+		<key>inputXRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Grid's X Rotation</string>
+			<key>name</key>
+			<string>X Rotation</string>
+		</dict>
+		<key>inputYRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Grid's Y Rotation</string>
+			<key>name</key>
+			<string>Y Rotation</string>
+		</dict>
+		<key>inputZRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Grid's Z Rotation</string>
+			<key>name</key>
+			<string>Z Rotation</string>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>Grid Width</string>
+			<key>name</key>
+			<string>Width</string>
+		</dict>
+		<key>inputHeight</key>
+		<dict>
+			<key>description</key>
+			<string>Grid Height</string>
+			<key>name</key>
+			<string>Height</string>
+		</dict>
+		<key>inputHResolution</key>
+		<dict>
+			<key>description</key>
+			<string>Grid's Horizontal Resolution</string>
+			<key>name</key>
+			<string>H Resolution</string>
+		</dict>
+		<key>inputVResolution</key>
+		<dict>
+			<key>description</key>
+			<string>Grid's Vertical Resolution</string>
+			<key>name</key>
+			<string>V Resolution</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

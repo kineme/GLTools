@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch modifies the default OpenGL Logic Operation used when rendering.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Logic Op</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputMode</key>
+		<dict>
+			<key>description</key>
+			<string>Image on the triangle</string>
+			<key>name</key>
+			<string>Mode</string>
+			<key>menu</key>
+			<array>
+				<string>Clear</string>
+				<string>Set</string>
+				<string>Copy</string>
+				<string>Inverted Copy</string>
+				<string>No-Op</string>
+				<string>Invert</string>
+				<string>And</string>
+				<string>NAnd</string>
+				<string>Or</string>
+				<string>NOr</string>
+				<string>XOr</string>
+				<string>Equiv</string>
+				<string>And Reverse</string>
+				<string>And Inverted</string>
+				<string>Or Reverse</string>
+				<string>Or Inverted</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

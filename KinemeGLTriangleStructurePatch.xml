@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders a series of OpenGL Triangles specified by the Input Triangles structure.
+
+The Input Triangles structure should contain a series of 3-element structures, one for each triangle vertex.  Vertices can be specified as either the first three array elements ([0], [1], and [2]), or capitalized named values ('X', 'Y', and 'Z').
+
+If using named values, the following additional elements may also be specified: 'U', 'V', 'NX', 'NY', 'NZ', 'R', 'G', 'B', 'A'.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Triangle Structure</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image on the triangles</string>
+			<key>name</key>
+			<string>Image</string>
+		</dict>
+		<key>inputTriangles</key>
+		<dict>
+			<key>description</key>
+			<string>A structure containing a series of 3-element structures, one for each triangle vertex.
+Vertices can be specified as either the first three array elements ([0], [1], and [2]),
+or capitalized named values ('X', 'Y', and 'Z').
+If using named values, the following additional elements may also be specified:
+'U', 'V', 'NX', 'NY', 'NZ', 'R', 'G', 'B', 'A'.</string>
+			<key>name</key>
+			<string>Input Triangles</string>
+		</dict>
+		<key>inputColor</key>
+		<dict>
+			<key>description</key>
+			<string>Default triangle color (if color isn't specified per-point in the Input Triangles structure)</string>
+			<key>name</key>
+			<string>Default Color</string>
+		</dict>
+		<key>inputType</key>
+		<dict>
+			<key>description</key>
+			<string>The Triangle Type (Distinct Triangles or Triangle Strips)</string>
+			<key>name</key>
+			<string>Triangle Type</string>
+			<key>menu</key>
+			<array>
+				<string>Distinct Triangles</string>
+				<string>Triangle Strip</string>
+			</array>		
+		</dict>
+				<key>inputXPosition</key>
+		<dict>
+			<key>description</key>
+			<string>X Position</string>
+			<key>name</key>
+			<string>X Position</string>
+		</dict>
+		<key>inputYPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Y Position</string>
+			<key>name</key>
+			<string>Y Position</string>
+		</dict>
+		<key>inputZPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Z Position</string>
+			<key>name</key>
+			<string>Z Position</string>
+		</dict>
+
+		<key>inputXRotation</key>
+		<dict>
+			<key>description</key>
+			<string>X Rotation</string>
+			<key>name</key>
+			<string>X Rotation</string>
+		</dict>
+		<key>inputYRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Y Rotation</string>
+			<key>name</key>
+			<string>Y Rotation</string>
+		</dict>
+		<key>inputZRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Z Rotation</string>
+			<key>name</key>
+			<string>Z Rotation</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

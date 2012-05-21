@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch ...
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Depth Sort Sprite</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputX</key>
+		<dict>
+			<key>description</key>
+			<string>X Position</string>
+			<key>name</key>
+			<string>X Position</string>
+		</dict>
+		<key>inputY</key>
+		<dict>
+			<key>description</key>
+			<string>Y Position</string>
+			<key>name</key>
+			<string>Y Position</string>
+		</dict>
+		<key>inputZ</key>
+		<dict>
+			<key>description</key>
+			<string>Z Position</string>
+			<key>name</key>
+			<string>Z Position</string>
+		</dict>
+		<key>inputXr</key>
+		<dict>
+			<key>description</key>
+			<string>X Rotation</string>
+			<key>name</key>
+			<string>X Rotation</string>
+		</dict>
+		<key>inputYr</key>
+		<dict>
+			<key>description</key>
+			<string>Y Rotation</string>
+			<key>name</key>
+			<string>Y Rotation</string>
+		</dict>
+		<key>inputZr</key>
+		<dict>
+			<key>description</key>
+			<string>Z Rotation</string>
+			<key>name</key>
+			<string>Z Rotation</string>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>Width</string>
+			<key>name</key>
+			<string>Width</string>
+		</dict>
+		<key>inputHeight</key>
+		<dict>
+			<key>description</key>
+			<string>Height</string>
+			<key>name</key>
+			<string>Height</string>
+		</dict>
+		<key>inputColor</key>
+		<dict>
+			<key>description</key>
+			<string>Color</string>
+			<key>name</key>
+			<string>Color</string>
+		</dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image</string>
+			<key>name</key>
+			<string>Image</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

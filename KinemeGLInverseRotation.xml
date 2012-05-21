@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch provides inverse rotation information to orient objects inside a trackball or 3D Transform.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Inverse Rotation</string>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputXRotation</key>
+		<dict>
+			<key>description</key>
+			<string>X rotation angle</string>
+			<key>name</key>
+			<string>X Rotation</string>
+		</dict>
+		<key>outputYRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Y rotation angle</string>
+			<key>name</key>
+			<string>y Rotation</string>
+		</dict>
+		<key>outputZRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Z rotation angle</string>
+			<key>name</key>
+			<string>Z Rotation</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

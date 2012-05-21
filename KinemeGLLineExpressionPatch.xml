@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders a curve as line-segments, based on input expressions.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Line Expression</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputPattern</key>
+		<dict>
+			<key>description</key>
+			<string>16-bit Stipple Pattern [0-65536]</string>
+			<key>name</key>
+			<string>Stipple Pattern</string>
+		</dict>
+		<key>inputRepeatCount</key>
+		<dict>
+			<key>description</key>
+			<string>Stipple Pattern scale</string>
+			<key>name</key>
+			<string>Stipple Scale</string>
+		</dict>
+		<key>inputSteps</key>
+		<dict>
+			<key>description</key>
+			<string>How many steps to take on the curve</string>
+			<key>name</key>
+			<string>Subdivisions</string>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>Controls how wide to draw the spline</string>
+			<key>name</key>
+			<string>Width</string>
+		</dict>
+		
+		<key>inputXExpression</key>
+		<dict>
+			<key>description</key>
+			<string>curve's X position expression</string>
+			<key>name</key>
+			<string>X Expression</string>
+		</dict>
+		<key>inputYExpression</key>
+		<dict>
+			<key>description</key>
+			<string>curve's Y position expression</string>
+			<key>name</key>
+			<string>Y Expression</string>
+		</dict>
+		<key>inputZExpression</key>
+		<dict>
+			<key>description</key>
+			<string>curve's Z position expression</string>
+			<key>name</key>
+			<string>Z Expression</string>
+		</dict>
+		
+		<key>inputRExpression</key>
+		<dict>
+			<key>description</key>
+			<string>curve's R color expression</string>
+			<key>name</key>
+			<string>R Expression</string>
+		</dict>
+		<key>inputGExpression</key>
+		<dict>
+			<key>description</key>
+			<string>curve's G color expression</string>
+			<key>name</key>
+			<string>G Expression</string>
+		</dict>
+		<key>inputBExpression</key>
+		<dict>
+			<key>description</key>
+			<string>curve's B color expression</string>
+			<key>name</key>
+			<string>B Expression</string>
+		</dict>
+		<key>inputAExpression</key>
+		<dict>
+			<key>description</key>
+			<string>curve's A color expression</string>
+			<key>name</key>
+			<string>A Expression</string>
+		</dict>
+		
+		<key>inputAdditionalVariables</key>
+		<dict>
+			<key>description</key>
+			<string>Structure of additional variables (as name, value pairs)</string>
+			<key>name</key>
+			<string>Additional Variables</string>
+		</dict>
+		
+		<key>inputXPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Position on the X-axis</string>
+			<key>name</key>
+			<string>X Position</string>
+		</dict>
+		<key>inputYPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Position on the Y-axis</string>
+			<key>name</key>
+			<string>Y Position</string>
+		</dict>
+		<key>inputZPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Position on the Z-axis</string>
+			<key>name</key>
+			<string>Z Position</string>
+		</dict>
+		<key>inputXRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Rotation about the X-axis</string>
+			<key>name</key>
+			<string>X Rotation</string>
+		</dict>
+		<key>inputYRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Rotation about the Y-axis</string>
+			<key>name</key>
+			<string>Y Rotation</string>
+		</dict>
+		<key>inputZRotation</key>
+		<dict>
+			<key>description</key>
+			<string>Rotation about the Z-axis</string>
+			<key>name</key>
+			<string>Z Rotation</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>- Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>- Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch Generates mipmap data for an input image.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Generate mipmap</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image to generate mipmaps for (Must be 2D and have power-of-two dimensions)</string>
+			<key>name</key>
+			<string>Image</string>
+		</dict>
+		<key>inputAniso</key>
+		<dict>
+			<key>description</key>
+			<string>Anisotropic Filtering amount</string>
+			<key>name</key>
+			<string>Anisotropic Filtering</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image with generated mipmaps</string>
+			<key>name</key>
+			<string>Image</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

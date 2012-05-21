@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch sets up a look-at perspective matrix.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Look At</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputEyeX</key>
+		<dict>
+			<key>description</key>
+			<string>Eye X</string>
+			<key>name</key>
+			<string>Eye X</string>
+		</dict>
+		<key>inputEyeY</key>
+		<dict>
+			<key>description</key>
+			<string>Eye Y</string>
+			<key>name</key>
+			<string>Eye Y</string>
+		</dict>
+		<key>inputEyeZ</key>
+		<dict>
+			<key>description</key>
+			<string>Eye Z</string>
+			<key>name</key>
+			<string>Eye Z</string>
+		</dict>
+		<key>inputCenterX</key>
+		<dict>
+			<key>description</key>
+			<string>Center X</string>
+			<key>name</key>
+			<string>Center X</string>
+		</dict>
+		<key>inputCenterY</key>
+		<dict>
+			<key>description</key>
+			<string>Center Y</string>
+			<key>name</key>
+			<string>Center Y</string>
+		</dict>
+		<key>inputCenterZ</key>
+		<dict>
+			<key>description</key>
+			<string>Center Z</string>
+			<key>name</key>
+			<string>Center Z</string>
+		</dict>
+		<key>inputUpX</key>
+		<dict>
+			<key>description</key>
+			<string>Up X</string>
+			<key>name</key>
+			<string>Up X</string>
+		</dict>
+		<key>inputUpY</key>
+		<dict>
+			<key>description</key>
+			<string>Up Y</string>
+			<key>name</key>
+			<string>Up Y</string>
+		</dict>
+		<key>inputUpZ</key>
+		<dict>
+			<key>description</key>
+			<string>Up Z</string>
+			<key>name</key>
+			<string>Up Z</string>
+		</dict>
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

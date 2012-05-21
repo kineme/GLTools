@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0DA8E30E9D96A400C815DE /* KinemeGLTorusPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DA8E20E9D96A400C815DE /* KinemeGLTorusPatch.m */; };
+		2A177E6D0FDF62F900DBDC23 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1111F80089D19ED00C2708E /* Quartz.framework */; };
+		2A177E700FDF630C00DBDC23 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		2A224AB10C84ECDF004FCE24 /* KinemeGLQuadPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A224AB00C84ECDF004FCE24 /* KinemeGLQuadPatch.m */; };
+		2A44FAF90FCA55DC0040222D /* KinemeGLInverseRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44FAF80FCA55DC0040222D /* KinemeGLInverseRotation.m */; };
+		2A4D567C0EF9C258005BD853 /* KinemeGLGenerateMipMapPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D567B0EF9C258005BD853 /* KinemeGLGenerateMipMapPatch.m */; };
+		2A68FF43109606720081985F /* KinemeGLRenderInImageWithDepthPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68FF42109606720081985F /* KinemeGLRenderInImageWithDepthPatch.m */; };
+		2A78661D0D3D8F900074F108 /* KinemeGLReadPixelsPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A78661C0D3D8F900074F108 /* KinemeGLReadPixelsPatch.m */; };
+		2A8BF0AE0D03DF7300546336 /* KinemeGLFieldOfViewPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BF0AD0D03DF7300546336 /* KinemeGLFieldOfViewPatch.m */; };
+		2AA071D70C90A1ED00730A21 /* KinemeGLPolygonModePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA071D60C90A1ED00730A21 /* KinemeGLPolygonModePatch.m */; };
+		2AA4F30B0D143FC200D36F3E /* KinemeGLLogicOpPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA4F30A0D143FC200D36F3E /* KinemeGLLogicOpPatch.m */; };
+		2AAAC04D103B40C200A1C619 /* KinemeGLGridGeneratorPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAAC04C103B40C200A1C619 /* KinemeGLGridGeneratorPatch.m */; };
+		2AAAC050103B40CE00A1C619 /* KinemeGLGridEditorPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAAC04F103B40CE00A1C619 /* KinemeGLGridEditorPatch.m */; };
+		2AAAC056103BA53F00A1C619 /* KinemeGLGridGeneratorPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2AAAC055103BA53F00A1C619 /* KinemeGLGridGeneratorPatch.xml */; };
+		2AAAC058103BA55D00A1C619 /* KinemeGLGridEditorPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2AAAC057103BA55D00A1C619 /* KinemeGLGridEditorPatch.xml */; };
+		2AAF50C70F8E55EB009D7382 /* KinemeGLCameraPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF50C60F8E55EB009D7382 /* KinemeGLCameraPatch.m */; };
+		2AAF50CB0F8E563B009D7382 /* KinemeGLCameraPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF50CA0F8E563B009D7382 /* KinemeGLCameraPatch.xml */; };
+		2ABB77DB0F24095A00B179D5 /* KinemeGLLineExpressionPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABB77DA0F24095A00B179D5 /* KinemeGLLineExpressionPatch.m */; };
+		2ABF827F0E6E3695007C731B /* KinemeGLColorMaskPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF827E0E6E3695007C731B /* KinemeGLColorMaskPatch.m */; };
+		2ABF828D0E6E3ABB007C731B /* KinemeGLLoadMatrixPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF828C0E6E3ABB007C731B /* KinemeGLLoadMatrixPatch.m */; };
+		2ABF82B40E6E4502007C731B /* KinemeGLLookAtPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF82B30E6E4502007C731B /* KinemeGLLookAtPatch.m */; };
+		2AC4F7200F2690180004F6AF /* KinemeGLScissorPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4F71F0F2690180004F6AF /* KinemeGLScissorPatch.m */; };
+		2AC562D70E71E6B200188E6D /* KinemeGLScalePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC562D60E71E6B200188E6D /* KinemeGLScalePatch.m */; };
+		2AC947920FC18ED800E83932 /* KinemeGLCubeStructurePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC947910FC18ED800E83932 /* KinemeGLCubeStructurePatch.m */; };
+		2AD91E120D730D8200A22B14 /* KinemeGLPointStructurePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD91E110D730D8200A22B14 /* KinemeGLPointStructurePatch.m */; };
+		2AD91E2B0D73569F00A22B14 /* KinemeGLLineStructurePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD91E2A0D73569E00A22B14 /* KinemeGLLineStructurePatch.m */; };
+		2ADBC76F0C8357BA00393831 /* KinemeGLLinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADBC76E0C8357BA00393831 /* KinemeGLLinePatch.m */; };
+		2ADBC7B40C83842400393831 /* KinemeGLTrianglePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADBC7B30C83842400393831 /* KinemeGLTrianglePatch.m */; };
+		2AEF10C30D1321BF0081EE87 /* KinemeGLDepthBufferAlphaThresholdPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEF10C20D1321BF0081EE87 /* KinemeGLDepthBufferAlphaThresholdPatch.m */; };
+		2AF1D4D90D0F593800C2695E /* KinemeGLGridPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1D4D60D0F593800C2695E /* KinemeGLGridPatch.m */; };
+		2AF1D4DA0D0F593800C2695E /* KinemeGLGridRendererPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1D4D80D0F593800C2695E /* KinemeGLGridRendererPatch.m */; };
+		2AF3051E0EACA92D0012D179 /* KinemeGLPolygonOffsetPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF3051D0EACA92D0012D179 /* KinemeGLPolygonOffsetPatch.m */; };
+		2AF437EB0E8176EF005391BE /* KinemeGLBlendEquationPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF437EA0E8176EF005391BE /* KinemeGLBlendEquationPatch.m */; };
+		2AF438260E819384005391BE /* KinemeSuperGLSLGridPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF438250E819384005391BE /* KinemeSuperGLSLGridPatch.m */; };
+		2AF438930E81FF91005391BE /* KinemeGLShadeModelPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF438920E81FF91005391BE /* KinemeGLShadeModelPatch.m */; };
+		2AF438A10E820356005391BE /* KinemeGLViewportPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF438A00E820356005391BE /* KinemeGLViewportPatch.m */; };
+		2AF438CB0E820933005391BE /* KinemeGLClearDepthPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF438CA0E820933005391BE /* KinemeGLClearDepthPatch.m */; };
+		2AFC3FE40D6C70FB007C6C80 /* KinemeGLOrthoPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA4F2950D141B4300D36F3E /* KinemeGLOrthoPatch.m */; };
+		2B109E041561FB56001AC445 /* KinemeGLSplinePatchUI.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B109E031561FB56001AC445 /* KinemeGLSplinePatchUI.nib */; };
+		2B3821CB114816DD00F585D9 /* KinemeGLStructureRendererPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3821CA114816DD00F585D9 /* KinemeGLStructureRendererPatch.m */; };
+		2B3821CF11481C0D00F585D9 /* KinemeGLStructureRendererPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3821CE11481C0D00F585D9 /* KinemeGLStructureRendererPatch.xml */; };
+		2B3BE2E91561FB1200F2A216 /* KinemeGLBlendEquationPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2AD1561FB1200F2A216 /* KinemeGLBlendEquationPatch.xml */; };
+		2B3BE2EA1561FB1200F2A216 /* KinemeGLClearDepthPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2AE1561FB1200F2A216 /* KinemeGLClearDepthPatch.xml */; };
+		2B3BE2EB1561FB1200F2A216 /* KinemeGLColorMaskPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2AF1561FB1200F2A216 /* KinemeGLColorMaskPatch.xml */; };
+		2B3BE2EC1561FB1200F2A216 /* KinemeGLContextInfoPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B01561FB1200F2A216 /* KinemeGLContextInfoPatch.xml */; };
+		2B3BE2ED1561FB1200F2A216 /* KinemeGLCubeStructurePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B11561FB1200F2A216 /* KinemeGLCubeStructurePatch.xml */; };
+		2B3BE2EE1561FB1200F2A216 /* KinemeGLDepthBufferAlphaThresholdPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B21561FB1200F2A216 /* KinemeGLDepthBufferAlphaThresholdPatch.xml */; };
+		2B3BE2EF1561FB1200F2A216 /* KinemeGLDepthSortEnvironmentPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B31561FB1200F2A216 /* KinemeGLDepthSortEnvironmentPatch.xml */; };
+		2B3BE2F01561FB1200F2A216 /* KinemeGLDepthSortSpritePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B41561FB1200F2A216 /* KinemeGLDepthSortSpritePatch.xml */; };
+		2B3BE2F11561FB1200F2A216 /* KinemeGLFieldOfViewPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B51561FB1200F2A216 /* KinemeGLFieldOfViewPatch.xml */; };
+		2B3BE2F21561FB1200F2A216 /* KinemeGLFrustumPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B61561FB1200F2A216 /* KinemeGLFrustumPatch.xml */; };
+		2B3BE2F31561FB1200F2A216 /* KinemeGLGenerateMipMapPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B71561FB1200F2A216 /* KinemeGLGenerateMipMapPatch.xml */; };
+		2B3BE2F41561FB1200F2A216 /* KinemeGLGridPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B81561FB1200F2A216 /* KinemeGLGridPatch.xml */; };
+		2B3BE2F51561FB1200F2A216 /* KinemeGLGridRendererPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2B91561FB1200F2A216 /* KinemeGLGridRendererPatch.xml */; };
+		2B3BE2F61561FB1200F2A216 /* KinemeGLInverseRotation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2BA1561FB1200F2A216 /* KinemeGLInverseRotation.xml */; };
+		2B3BE2F81561FB1200F2A216 /* KinemeGLLineExpressionPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2BC1561FB1200F2A216 /* KinemeGLLineExpressionPatch.xml */; };
+		2B3BE2F91561FB1200F2A216 /* KinemeGLLinePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2BD1561FB1200F2A216 /* KinemeGLLinePatch.xml */; };
+		2B3BE2FA1561FB1200F2A216 /* KinemeGLLineStructurePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2BE1561FB1200F2A216 /* KinemeGLLineStructurePatch.xml */; };
+		2B3BE2FB1561FB1200F2A216 /* KinemeGLLoadMatrixPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2BF1561FB1200F2A216 /* KinemeGLLoadMatrixPatch.xml */; };
+		2B3BE2FC1561FB1200F2A216 /* KinemeGLLogicOpPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C01561FB1200F2A216 /* KinemeGLLogicOpPatch.xml */; };
+		2B3BE2FD1561FB1200F2A216 /* KinemeGLLookAtPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C11561FB1200F2A216 /* KinemeGLLookAtPatch.xml */; };
+		2B3BE2FE1561FB1200F2A216 /* KinemeGLMultMatrixPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C21561FB1200F2A216 /* KinemeGLMultMatrixPatch.xml */; };
+		2B3BE2FF1561FB1200F2A216 /* KinemeGLOrthoPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C31561FB1200F2A216 /* KinemeGLOrthoPatch.xml */; };
+		2B3BE3001561FB1200F2A216 /* KinemeGLPointPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C41561FB1200F2A216 /* KinemeGLPointPatch.xml */; };
+		2B3BE3011561FB1200F2A216 /* KinemeGLPointStructurePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C51561FB1200F2A216 /* KinemeGLPointStructurePatch.xml */; };
+		2B3BE3021561FB1200F2A216 /* KinemeGLPolygonModePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C61561FB1200F2A216 /* KinemeGLPolygonModePatch.xml */; };
+		2B3BE3031561FB1200F2A216 /* KinemeGLPolygonOffsetPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C71561FB1200F2A216 /* KinemeGLPolygonOffsetPatch.xml */; };
+		2B3BE3041561FB1200F2A216 /* KinemeGLQuadPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C81561FB1200F2A216 /* KinemeGLQuadPatch.xml */; };
+		2B3BE3051561FB1200F2A216 /* KinemeGLQuadStructurePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2C91561FB1200F2A216 /* KinemeGLQuadStructurePatch.xml */; };
+		2B3BE3061561FB1200F2A216 /* KinemeGLReadPixelsPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2CA1561FB1200F2A216 /* KinemeGLReadPixelsPatch.xml */; };
+		2B3BE3071561FB1200F2A216 /* KinemeGLRenderInImageWithDepthPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2CB1561FB1200F2A216 /* KinemeGLRenderInImageWithDepthPatch.xml */; };
+		2B3BE3081561FB1200F2A216 /* KinemeGLScalePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2CC1561FB1200F2A216 /* KinemeGLScalePatch.xml */; };
+		2B3BE3091561FB1200F2A216 /* KinemeGLScissorPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2CD1561FB1200F2A216 /* KinemeGLScissorPatch.xml */; };
+		2B3BE30A1561FB1200F2A216 /* KinemeGLShadeModelPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2CE1561FB1200F2A216 /* KinemeGLShadeModelPatch.xml */; };
+		2B3BE30B1561FB1200F2A216 /* KinemeGLSplinePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2CF1561FB1200F2A216 /* KinemeGLSplinePatch.xml */; };
+		2B3BE30C1561FB1200F2A216 /* KinemeGLStereoEnvironmentPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2D01561FB1200F2A216 /* KinemeGLStereoEnvironmentPatch.xml */; };
+		2B3BE30D1561FB1200F2A216 /* KinemeGLTorusPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2D11561FB1200F2A216 /* KinemeGLTorusPatch.xml */; };
+		2B3BE30E1561FB1200F2A216 /* KinemeGLTrianglePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2D21561FB1200F2A216 /* KinemeGLTrianglePatch.xml */; };
+		2B3BE30F1561FB1200F2A216 /* KinemeGLTriangleStructurePatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2D31561FB1200F2A216 /* KinemeGLTriangleStructurePatch.xml */; };
+		2B3BE3101561FB1200F2A216 /* KinemeGLViewportPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2D41561FB1200F2A216 /* KinemeGLViewportPatch.xml */; };
+		2B3BE3111561FB1200F2A216 /* KinemeSuperGLSLGridPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE2D51561FB1200F2A216 /* KinemeSuperGLSLGridPatch.xml */; };
+		2B536E2B0F9FEDA100687FBB /* KinemeGLDepthSortEnvironmentPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B536E2A0F9FEDA100687FBB /* KinemeGLDepthSortEnvironmentPatch.m */; };
+		2B536E2E0F9FEDB000687FBB /* KinemeGLDepthSortSpritePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B536E2D0F9FEDB000687FBB /* KinemeGLDepthSortSpritePatch.m */; };
+		2B68308D1144274600625C08 /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B68308C1144274600625C08 /* UnitTests.m */; };
+		2B6830951144281A00625C08 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1111F80089D19ED00C2708E /* Quartz.framework */; };
+		2B6830991144283100625C08 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6830981144283100625C08 /* SenTestingKit.framework */; };
+		2B6830EE1144791E00625C08 /* KinemeGLStereoEnvironmentPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4208510911E3E00AEF269 /* KinemeGLStereoEnvironmentPatch.m */; };
+		2B6830EF1144792A00625C08 /* KinemeGLPointPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481781089E5F53006FD276 /* KinemeGLPointPatch.m */; };
+		2BB585D711C348180042A2FA /* KinemeGLLightingBypassPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB585D511C348180042A2FA /* KinemeGLLightingBypassPatch.m */; };
+		2BB585D811C348180042A2FA /* KinemeGLLightingBypassPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2BB585D611C348180042A2FA /* KinemeGLLightingBypassPatch.xml */; };
+		2BB7A6670CDB5A6600EDED72 /* KinemeGLMultMatrixPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB7A6660CDB5A6600EDED72 /* KinemeGLMultMatrixPatch.m */; };
+		2BBF37190E847F6500686C96 /* KinemeGLSplinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF37160E847F6500686C96 /* KinemeGLSplinePatch.m */; };
+		2BBF371A0E847F6500686C96 /* KinemeGLSplinePatchUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF37180E847F6500686C96 /* KinemeGLSplinePatchUI.m */; };
+		2BCCD4B10E8878C300EA1FF1 /* KinemeGLTriangleStructurePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCCD4B00E8878C300EA1FF1 /* KinemeGLTriangleStructurePatch.m */; };
+		2BCCD4EF0E88895D00EA1FF1 /* KinemeGLQuadStructurePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCCD4EE0E88895D00EA1FF1 /* KinemeGLQuadStructurePatch.m */; };
+		2BE4206A1090B35E00AEF269 /* KinemeGLFrustumPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE420691090B35E00AEF269 /* KinemeGLFrustumPatch.m */; };
+		2BE4208610911E3E00AEF269 /* KinemeGLStereoEnvironmentPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4208510911E3E00AEF269 /* KinemeGLStereoEnvironmentPatch.m */; };
+		2BF7FD240C8BBB6B00CCD27C /* KinemeGLContextInfoPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7FD230C8BBB6B00CCD27C /* KinemeGLContextInfoPatch.m */; };
+		F1111F7D089D19DD00C2708E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1111F7C089D19DD00C2708E /* OpenGL.framework */; };
+		F1481782089E5F53006FD276 /* KinemeGLPointPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481781089E5F53006FD276 /* KinemeGLPointPatch.m */; };
+		F1481793089E5FE3006FD276 /* GLToolsPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481792089E5FE3006FD276 /* GLToolsPrincipal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A0DA8E10E9D96A400C815DE /* KinemeGLTorusPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLTorusPatch.h; sourceTree = "<group>"; };
+		2A0DA8E20E9D96A400C815DE /* KinemeGLTorusPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLTorusPatch.m; sourceTree = "<group>"; };
+		2A224AAF0C84ECDF004FCE24 /* KinemeGLQuadPatch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KinemeGLQuadPatch.h; sourceTree = "<group>"; };
+		2A224AB00C84ECDF004FCE24 /* KinemeGLQuadPatch.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KinemeGLQuadPatch.m; sourceTree = "<group>"; };
+		2A44FAF70FCA55DC0040222D /* KinemeGLInverseRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLInverseRotation.h; sourceTree = "<group>"; };
+		2A44FAF80FCA55DC0040222D /* KinemeGLInverseRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLInverseRotation.m; sourceTree = "<group>"; };
+		2A4D567A0EF9C258005BD853 /* KinemeGLGenerateMipMapPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLGenerateMipMapPatch.h; sourceTree = "<group>"; };
+		2A4D567B0EF9C258005BD853 /* KinemeGLGenerateMipMapPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLGenerateMipMapPatch.m; sourceTree = "<group>"; };
+		2A68FF41109606720081985F /* KinemeGLRenderInImageWithDepthPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLRenderInImageWithDepthPatch.h; sourceTree = "<group>"; };
+		2A68FF42109606720081985F /* KinemeGLRenderInImageWithDepthPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLRenderInImageWithDepthPatch.m; sourceTree = "<group>"; };
+		2A78661B0D3D8F8F0074F108 /* KinemeGLReadPixelsPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLReadPixelsPatch.h; sourceTree = "<group>"; };
+		2A78661C0D3D8F900074F108 /* KinemeGLReadPixelsPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLReadPixelsPatch.m; sourceTree = "<group>"; };
+		2A8BF0AC0D03DF7300546336 /* KinemeGLFieldOfViewPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLFieldOfViewPatch.h; sourceTree = "<group>"; };
+		2A8BF0AD0D03DF7300546336 /* KinemeGLFieldOfViewPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLFieldOfViewPatch.m; sourceTree = "<group>"; };
+		2AA071D50C90A1ED00730A21 /* KinemeGLPolygonModePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLPolygonModePatch.h; sourceTree = "<group>"; };
+		2AA071D60C90A1ED00730A21 /* KinemeGLPolygonModePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLPolygonModePatch.m; sourceTree = "<group>"; };
+		2AA4F2940D141B4300D36F3E /* KinemeGLOrthoPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLOrthoPatch.h; sourceTree = "<group>"; };
+		2AA4F2950D141B4300D36F3E /* KinemeGLOrthoPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLOrthoPatch.m; sourceTree = "<group>"; };
+		2AA4F3090D143FC200D36F3E /* KinemeGLLogicOpPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLLogicOpPatch.h; sourceTree = "<group>"; };
+		2AA4F30A0D143FC200D36F3E /* KinemeGLLogicOpPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLLogicOpPatch.m; sourceTree = "<group>"; };
+		2AAAC04B103B40C200A1C619 /* KinemeGLGridGeneratorPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLGridGeneratorPatch.h; sourceTree = "<group>"; };
+		2AAAC04C103B40C200A1C619 /* KinemeGLGridGeneratorPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLGridGeneratorPatch.m; sourceTree = "<group>"; };
+		2AAAC04E103B40CE00A1C619 /* KinemeGLGridEditorPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLGridEditorPatch.h; sourceTree = "<group>"; };
+		2AAAC04F103B40CE00A1C619 /* KinemeGLGridEditorPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLGridEditorPatch.m; sourceTree = "<group>"; };
+		2AAAC055103BA53F00A1C619 /* KinemeGLGridGeneratorPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLGridGeneratorPatch.xml; sourceTree = "<group>"; };
+		2AAAC057103BA55D00A1C619 /* KinemeGLGridEditorPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLGridEditorPatch.xml; sourceTree = "<group>"; };
+		2AAF50C50F8E55EB009D7382 /* KinemeGLCameraPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLCameraPatch.h; sourceTree = "<group>"; };
+		2AAF50C60F8E55EB009D7382 /* KinemeGLCameraPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLCameraPatch.m; sourceTree = "<group>"; };
+		2AAF50CA0F8E563B009D7382 /* KinemeGLCameraPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLCameraPatch.xml; sourceTree = "<group>"; };
+		2ABB77D90F24095A00B179D5 /* KinemeGLLineExpressionPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLLineExpressionPatch.h; sourceTree = "<group>"; };
+		2ABB77DA0F24095A00B179D5 /* KinemeGLLineExpressionPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLLineExpressionPatch.m; sourceTree = "<group>"; };
+		2ABF827D0E6E3695007C731B /* KinemeGLColorMaskPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLColorMaskPatch.h; sourceTree = "<group>"; };
+		2ABF827E0E6E3695007C731B /* KinemeGLColorMaskPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLColorMaskPatch.m; sourceTree = "<group>"; };
+		2ABF828B0E6E3ABB007C731B /* KinemeGLLoadMatrixPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLLoadMatrixPatch.h; sourceTree = "<group>"; };
+		2ABF828C0E6E3ABB007C731B /* KinemeGLLoadMatrixPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLLoadMatrixPatch.m; sourceTree = "<group>"; };
+		2ABF82B20E6E4502007C731B /* KinemeGLLookAtPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLLookAtPatch.h; sourceTree = "<group>"; };
+		2ABF82B30E6E4502007C731B /* KinemeGLLookAtPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLLookAtPatch.m; sourceTree = "<group>"; };
+		2AC2968210D023D7003F2DB2 /* SkankySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkankySDK.framework; path = /Library/Frameworks/SkankySDK.framework; sourceTree = "<absolute>"; };
+		2AC4F71E0F2690180004F6AF /* KinemeGLScissorPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLScissorPatch.h; sourceTree = "<group>"; };
+		2AC4F71F0F2690180004F6AF /* KinemeGLScissorPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLScissorPatch.m; sourceTree = "<group>"; };
+		2AC562D50E71E6B200188E6D /* KinemeGLScalePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLScalePatch.h; sourceTree = "<group>"; };
+		2AC562D60E71E6B200188E6D /* KinemeGLScalePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLScalePatch.m; sourceTree = "<group>"; };
+		2AC947900FC18ED800E83932 /* KinemeGLCubeStructurePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLCubeStructurePatch.h; sourceTree = "<group>"; };
+		2AC947910FC18ED800E83932 /* KinemeGLCubeStructurePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLCubeStructurePatch.m; sourceTree = "<group>"; };
+		2AD91E100D730D8200A22B14 /* KinemeGLPointStructurePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLPointStructurePatch.h; sourceTree = "<group>"; };
+		2AD91E110D730D8200A22B14 /* KinemeGLPointStructurePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLPointStructurePatch.m; sourceTree = "<group>"; };
+		2AD91E290D73569E00A22B14 /* KinemeGLLineStructurePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLLineStructurePatch.h; sourceTree = "<group>"; };
+		2AD91E2A0D73569E00A22B14 /* KinemeGLLineStructurePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLLineStructurePatch.m; sourceTree = "<group>"; };
+		2ADBC76D0C8357BA00393831 /* KinemeGLLinePatch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KinemeGLLinePatch.h; sourceTree = "<group>"; };
+		2ADBC76E0C8357BA00393831 /* KinemeGLLinePatch.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KinemeGLLinePatch.m; sourceTree = "<group>"; };
+		2ADBC7B20C83842400393831 /* KinemeGLTrianglePatch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KinemeGLTrianglePatch.h; sourceTree = "<group>"; };
+		2ADBC7B30C83842400393831 /* KinemeGLTrianglePatch.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KinemeGLTrianglePatch.m; sourceTree = "<group>"; };
+		2AEF10C10D1321BF0081EE87 /* KinemeGLDepthBufferAlphaThresholdPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLDepthBufferAlphaThresholdPatch.h; sourceTree = "<group>"; };
+		2AEF10C20D1321BF0081EE87 /* KinemeGLDepthBufferAlphaThresholdPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLDepthBufferAlphaThresholdPatch.m; sourceTree = "<group>"; };
+		2AF1D4D50D0F593800C2695E /* KinemeGLGridPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLGridPatch.h; sourceTree = "<group>"; };
+		2AF1D4D60D0F593800C2695E /* KinemeGLGridPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLGridPatch.m; sourceTree = "<group>"; };
+		2AF1D4D70D0F593800C2695E /* KinemeGLGridRendererPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLGridRendererPatch.h; sourceTree = "<group>"; };
+		2AF1D4D80D0F593800C2695E /* KinemeGLGridRendererPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLGridRendererPatch.m; sourceTree = "<group>"; };
+		2AF3051C0EACA92D0012D179 /* KinemeGLPolygonOffsetPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLPolygonOffsetPatch.h; sourceTree = "<group>"; };
+		2AF3051D0EACA92D0012D179 /* KinemeGLPolygonOffsetPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLPolygonOffsetPatch.m; sourceTree = "<group>"; };
+		2AF437E90E8176EF005391BE /* KinemeGLBlendEquationPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLBlendEquationPatch.h; sourceTree = "<group>"; };
+		2AF437EA0E8176EF005391BE /* KinemeGLBlendEquationPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLBlendEquationPatch.m; sourceTree = "<group>"; };
+		2AF438240E819384005391BE /* KinemeSuperGLSLGridPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeSuperGLSLGridPatch.h; sourceTree = "<group>"; };
+		2AF438250E819384005391BE /* KinemeSuperGLSLGridPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeSuperGLSLGridPatch.m; sourceTree = "<group>"; };
+		2AF438910E81FF91005391BE /* KinemeGLShadeModelPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLShadeModelPatch.h; sourceTree = "<group>"; };
+		2AF438920E81FF91005391BE /* KinemeGLShadeModelPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLShadeModelPatch.m; sourceTree = "<group>"; };
+		2AF4389F0E820356005391BE /* KinemeGLViewportPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLViewportPatch.h; sourceTree = "<group>"; };
+		2AF438A00E820356005391BE /* KinemeGLViewportPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLViewportPatch.m; sourceTree = "<group>"; };
+		2AF438C90E820933005391BE /* KinemeGLClearDepthPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLClearDepthPatch.h; sourceTree = "<group>"; };
+		2AF438CA0E820933005391BE /* KinemeGLClearDepthPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLClearDepthPatch.m; sourceTree = "<group>"; };
+		2B109E031561FB56001AC445 /* KinemeGLSplinePatchUI.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = KinemeGLSplinePatchUI.nib; sourceTree = "<group>"; };
+		2B3821C9114816DD00F585D9 /* KinemeGLStructureRendererPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLStructureRendererPatch.h; sourceTree = "<group>"; };
+		2B3821CA114816DD00F585D9 /* KinemeGLStructureRendererPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLStructureRendererPatch.m; sourceTree = "<group>"; };
+		2B3821CE11481C0D00F585D9 /* KinemeGLStructureRendererPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLStructureRendererPatch.xml; sourceTree = "<group>"; };
+		2B3BE2AD1561FB1200F2A216 /* KinemeGLBlendEquationPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLBlendEquationPatch.xml; sourceTree = "<group>"; };
+		2B3BE2AE1561FB1200F2A216 /* KinemeGLClearDepthPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLClearDepthPatch.xml; sourceTree = "<group>"; };
+		2B3BE2AF1561FB1200F2A216 /* KinemeGLColorMaskPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLColorMaskPatch.xml; sourceTree = "<group>"; };
+		2B3BE2B01561FB1200F2A216 /* KinemeGLContextInfoPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLContextInfoPatch.xml; sourceTree = "<group>"; };
+		2B3BE2B11561FB1200F2A216 /* KinemeGLCubeStructurePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLCubeStructurePatch.xml; sourceTree = "<group>"; };
+		2B3BE2B21561FB1200F2A216 /* KinemeGLDepthBufferAlphaThresholdPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLDepthBufferAlphaThresholdPatch.xml; sourceTree = "<group>"; };
+		2B3BE2B31561FB1200F2A216 /* KinemeGLDepthSortEnvironmentPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLDepthSortEnvironmentPatch.xml; sourceTree = "<group>"; };
+		2B3BE2B41561FB1200F2A216 /* KinemeGLDepthSortSpritePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLDepthSortSpritePatch.xml; sourceTree = "<group>"; };
+		2B3BE2B51561FB1200F2A216 /* KinemeGLFieldOfViewPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLFieldOfViewPatch.xml; sourceTree = "<group>"; };
+		2B3BE2B61561FB1200F2A216 /* KinemeGLFrustumPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLFrustumPatch.xml; sourceTree = "<group>"; };
+		2B3BE2B71561FB1200F2A216 /* KinemeGLGenerateMipMapPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLGenerateMipMapPatch.xml; sourceTree = "<group>"; };
+		2B3BE2B81561FB1200F2A216 /* KinemeGLGridPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLGridPatch.xml; sourceTree = "<group>"; };
+		2B3BE2B91561FB1200F2A216 /* KinemeGLGridRendererPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLGridRendererPatch.xml; sourceTree = "<group>"; };
+		2B3BE2BA1561FB1200F2A216 /* KinemeGLInverseRotation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLInverseRotation.xml; sourceTree = "<group>"; };
+		2B3BE2BC1561FB1200F2A216 /* KinemeGLLineExpressionPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLLineExpressionPatch.xml; sourceTree = "<group>"; };
+		2B3BE2BD1561FB1200F2A216 /* KinemeGLLinePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLLinePatch.xml; sourceTree = "<group>"; };
+		2B3BE2BE1561FB1200F2A216 /* KinemeGLLineStructurePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLLineStructurePatch.xml; sourceTree = "<group>"; };
+		2B3BE2BF1561FB1200F2A216 /* KinemeGLLoadMatrixPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLLoadMatrixPatch.xml; sourceTree = "<group>"; };
+		2B3BE2C01561FB1200F2A216 /* KinemeGLLogicOpPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLLogicOpPatch.xml; sourceTree = "<group>"; };
+		2B3BE2C11561FB1200F2A216 /* KinemeGLLookAtPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLLookAtPatch.xml; sourceTree = "<group>"; };
+		2B3BE2C21561FB1200F2A216 /* KinemeGLMultMatrixPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLMultMatrixPatch.xml; sourceTree = "<group>"; };
+		2B3BE2C31561FB1200F2A216 /* KinemeGLOrthoPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLOrthoPatch.xml; sourceTree = "<group>"; };
+		2B3BE2C41561FB1200F2A216 /* KinemeGLPointPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLPointPatch.xml; sourceTree = "<group>"; };
+		2B3BE2C51561FB1200F2A216 /* KinemeGLPointStructurePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLPointStructurePatch.xml; sourceTree = "<group>"; };
+		2B3BE2C61561FB1200F2A216 /* KinemeGLPolygonModePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLPolygonModePatch.xml; sourceTree = "<group>"; };
+		2B3BE2C71561FB1200F2A216 /* KinemeGLPolygonOffsetPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLPolygonOffsetPatch.xml; sourceTree = "<group>"; };
+		2B3BE2C81561FB1200F2A216 /* KinemeGLQuadPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLQuadPatch.xml; sourceTree = "<group>"; };
+		2B3BE2C91561FB1200F2A216 /* KinemeGLQuadStructurePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLQuadStructurePatch.xml; sourceTree = "<group>"; };
+		2B3BE2CA1561FB1200F2A216 /* KinemeGLReadPixelsPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLReadPixelsPatch.xml; sourceTree = "<group>"; };
+		2B3BE2CB1561FB1200F2A216 /* KinemeGLRenderInImageWithDepthPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLRenderInImageWithDepthPatch.xml; sourceTree = "<group>"; };
+		2B3BE2CC1561FB1200F2A216 /* KinemeGLScalePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLScalePatch.xml; sourceTree = "<group>"; };
+		2B3BE2CD1561FB1200F2A216 /* KinemeGLScissorPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLScissorPatch.xml; sourceTree = "<group>"; };
+		2B3BE2CE1561FB1200F2A216 /* KinemeGLShadeModelPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLShadeModelPatch.xml; sourceTree = "<group>"; };
+		2B3BE2CF1561FB1200F2A216 /* KinemeGLSplinePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLSplinePatch.xml; sourceTree = "<group>"; };
+		2B3BE2D01561FB1200F2A216 /* KinemeGLStereoEnvironmentPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLStereoEnvironmentPatch.xml; sourceTree = "<group>"; };
+		2B3BE2D11561FB1200F2A216 /* KinemeGLTorusPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLTorusPatch.xml; sourceTree = "<group>"; };
+		2B3BE2D21561FB1200F2A216 /* KinemeGLTrianglePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLTrianglePatch.xml; sourceTree = "<group>"; };
+		2B3BE2D31561FB1200F2A216 /* KinemeGLTriangleStructurePatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLTriangleStructurePatch.xml; sourceTree = "<group>"; };
+		2B3BE2D41561FB1200F2A216 /* KinemeGLViewportPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLViewportPatch.xml; sourceTree = "<group>"; };
+		2B3BE2D51561FB1200F2A216 /* KinemeSuperGLSLGridPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeSuperGLSLGridPatch.xml; sourceTree = "<group>"; };
+		2B536E290F9FEDA100687FBB /* KinemeGLDepthSortEnvironmentPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLDepthSortEnvironmentPatch.h; sourceTree = "<group>"; };
+		2B536E2A0F9FEDA100687FBB /* KinemeGLDepthSortEnvironmentPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLDepthSortEnvironmentPatch.m; sourceTree = "<group>"; };
+		2B536E2C0F9FEDB000687FBB /* KinemeGLDepthSortSpritePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLDepthSortSpritePatch.h; sourceTree = "<group>"; };
+		2B536E2D0F9FEDB000687FBB /* KinemeGLDepthSortSpritePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLDepthSortSpritePatch.m; sourceTree = "<group>"; };
+		2B536F600FA12A3D00687FBB /* KinemeGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLRenderer.h; sourceTree = "<group>"; };
+		2B6830871144272100625C08 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6830881144272200625C08 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		2B68308B1144274600625C08 /* UnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTests.h; sourceTree = "<group>"; };
+		2B68308C1144274600625C08 /* UnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
+		2B6830981144283100625C08 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
+		2BB585D411C348180042A2FA /* KinemeGLLightingBypassPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLLightingBypassPatch.h; sourceTree = "<group>"; };
+		2BB585D511C348180042A2FA /* KinemeGLLightingBypassPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLLightingBypassPatch.m; sourceTree = "<group>"; };
+		2BB585D611C348180042A2FA /* KinemeGLLightingBypassPatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinemeGLLightingBypassPatch.xml; sourceTree = "<group>"; };
+		2BB7A6650CDB5A6600EDED72 /* KinemeGLMultMatrixPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLMultMatrixPatch.h; sourceTree = "<group>"; };
+		2BB7A6660CDB5A6600EDED72 /* KinemeGLMultMatrixPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLMultMatrixPatch.m; sourceTree = "<group>"; };
+		2BBF37150E847F6500686C96 /* KinemeGLSplinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLSplinePatch.h; sourceTree = "<group>"; };
+		2BBF37160E847F6500686C96 /* KinemeGLSplinePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLSplinePatch.m; sourceTree = "<group>"; };
+		2BBF37170E847F6500686C96 /* KinemeGLSplinePatchUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLSplinePatchUI.h; sourceTree = "<group>"; };
+		2BBF37180E847F6500686C96 /* KinemeGLSplinePatchUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLSplinePatchUI.m; sourceTree = "<group>"; };
+		2BCCD4AF0E8878C300EA1FF1 /* KinemeGLTriangleStructurePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLTriangleStructurePatch.h; sourceTree = "<group>"; };
+		2BCCD4B00E8878C300EA1FF1 /* KinemeGLTriangleStructurePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLTriangleStructurePatch.m; sourceTree = "<group>"; };
+		2BCCD4ED0E88895D00EA1FF1 /* KinemeGLQuadStructurePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLQuadStructurePatch.h; sourceTree = "<group>"; };
+		2BCCD4EE0E88895D00EA1FF1 /* KinemeGLQuadStructurePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLQuadStructurePatch.m; sourceTree = "<group>"; };
+		2BE420681090B35E00AEF269 /* KinemeGLFrustumPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLFrustumPatch.h; sourceTree = "<group>"; };
+		2BE420691090B35E00AEF269 /* KinemeGLFrustumPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLFrustumPatch.m; sourceTree = "<group>"; };
+		2BE4208410911E3E00AEF269 /* KinemeGLStereoEnvironmentPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLStereoEnvironmentPatch.h; sourceTree = "<group>"; };
+		2BE4208510911E3E00AEF269 /* KinemeGLStereoEnvironmentPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLStereoEnvironmentPatch.m; sourceTree = "<group>"; };
+		2BF7FD220C8BBB6B00CCD27C /* KinemeGLContextInfoPatch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KinemeGLContextInfoPatch.h; sourceTree = "<group>"; };
+		2BF7FD230C8BBB6B00CCD27C /* KinemeGLContextInfoPatch.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KinemeGLContextInfoPatch.m; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* GLTools_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* GLTools.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLTools.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1111F7C089D19DD00C2708E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F1111F80089D19ED00C2708E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		F1481780089E5F53006FD276 /* KinemeGLPointPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeGLPointPatch.h; sourceTree = "<group>"; };
+		F1481781089E5F53006FD276 /* KinemeGLPointPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeGLPointPatch.m; sourceTree = "<group>"; };
+		F1481791089E5FE3006FD276 /* GLToolsPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLToolsPrincipal.h; sourceTree = "<group>"; };
+		F1481792089E5FE3006FD276 /* GLToolsPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLToolsPrincipal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B6830841144272100625C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6830951144281A00625C08 /* Quartz.framework in Frameworks */,
+				2B6830991144283100625C08 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1111F7D089D19DD00C2708E /* OpenGL.framework in Frameworks */,
+				2A177E6D0FDF62F900DBDC23 /* Quartz.framework in Frameworks */,
+				2A177E700FDF630C00DBDC23 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* OpenGLPrimitivesPatch */ = {
+			isa = PBXGroup;
+			children = (
+				2B68307C114426CA00625C08 /* UnitTests */,
+				2BF7FC360C8B5C7800CCD27C /* Patches */,
+				F1481791089E5FE3006FD276 /* GLToolsPrincipal.h */,
+				F1481792089E5FE3006FD276 /* GLToolsPrincipal.m */,
+				32DBCF630370AF2F00C91783 /* GLTools_Prefix.pch */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = OpenGLPrimitivesPatch;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2AC2968210D023D7003F2DB2 /* SkankySDK.framework */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B3BE2AD1561FB1200F2A216 /* KinemeGLBlendEquationPatch.xml */,
+				2B3BE2AE1561FB1200F2A216 /* KinemeGLClearDepthPatch.xml */,
+				2B3BE2AF1561FB1200F2A216 /* KinemeGLColorMaskPatch.xml */,
+				2B3BE2B01561FB1200F2A216 /* KinemeGLContextInfoPatch.xml */,
+				2B3BE2B11561FB1200F2A216 /* KinemeGLCubeStructurePatch.xml */,
+				2B3BE2B21561FB1200F2A216 /* KinemeGLDepthBufferAlphaThresholdPatch.xml */,
+				2B3BE2B31561FB1200F2A216 /* KinemeGLDepthSortEnvironmentPatch.xml */,
+				2B3BE2B41561FB1200F2A216 /* KinemeGLDepthSortSpritePatch.xml */,
+				2B3BE2B51561FB1200F2A216 /* KinemeGLFieldOfViewPatch.xml */,
+				2B3BE2B61561FB1200F2A216 /* KinemeGLFrustumPatch.xml */,
+				2B3BE2B71561FB1200F2A216 /* KinemeGLGenerateMipMapPatch.xml */,
+				2B3BE2B81561FB1200F2A216 /* KinemeGLGridPatch.xml */,
+				2B3BE2B91561FB1200F2A216 /* KinemeGLGridRendererPatch.xml */,
+				2B3BE2BA1561FB1200F2A216 /* KinemeGLInverseRotation.xml */,
+				2B3BE2BC1561FB1200F2A216 /* KinemeGLLineExpressionPatch.xml */,
+				2B3BE2BD1561FB1200F2A216 /* KinemeGLLinePatch.xml */,
+				2B3BE2BE1561FB1200F2A216 /* KinemeGLLineStructurePatch.xml */,
+				2B3BE2BF1561FB1200F2A216 /* KinemeGLLoadMatrixPatch.xml */,
+				2B3BE2C01561FB1200F2A216 /* KinemeGLLogicOpPatch.xml */,
+				2B3BE2C11561FB1200F2A216 /* KinemeGLLookAtPatch.xml */,
+				2B3BE2C21561FB1200F2A216 /* KinemeGLMultMatrixPatch.xml */,
+				2B3BE2C31561FB1200F2A216 /* KinemeGLOrthoPatch.xml */,
+				2B3BE2C41561FB1200F2A216 /* KinemeGLPointPatch.xml */,
+				2B3BE2C51561FB1200F2A216 /* KinemeGLPointStructurePatch.xml */,
+				2B3BE2C61561FB1200F2A216 /* KinemeGLPolygonModePatch.xml */,
+				2B3BE2C71561FB1200F2A216 /* KinemeGLPolygonOffsetPatch.xml */,
+				2B3BE2C81561FB1200F2A216 /* KinemeGLQuadPatch.xml */,
+				2B3BE2C91561FB1200F2A216 /* KinemeGLQuadStructurePatch.xml */,
+				2B3BE2CA1561FB1200F2A216 /* KinemeGLReadPixelsPatch.xml */,
+				2B3BE2CB1561FB1200F2A216 /* KinemeGLRenderInImageWithDepthPatch.xml */,
+				2B3BE2CC1561FB1200F2A216 /* KinemeGLScalePatch.xml */,
+				2B3BE2CD1561FB1200F2A216 /* KinemeGLScissorPatch.xml */,
+				2B3BE2CE1561FB1200F2A216 /* KinemeGLShadeModelPatch.xml */,
+				2B3BE2CF1561FB1200F2A216 /* KinemeGLSplinePatch.xml */,
+				2B3BE2D01561FB1200F2A216 /* KinemeGLStereoEnvironmentPatch.xml */,
+				2B3BE2D11561FB1200F2A216 /* KinemeGLTorusPatch.xml */,
+				2B3BE2D21561FB1200F2A216 /* KinemeGLTrianglePatch.xml */,
+				2B3BE2D31561FB1200F2A216 /* KinemeGLTriangleStructurePatch.xml */,
+				2B3BE2D41561FB1200F2A216 /* KinemeGLViewportPatch.xml */,
+				2B3BE2D51561FB1200F2A216 /* KinemeSuperGLSLGridPatch.xml */,
+				2BB585D611C348180042A2FA /* KinemeGLLightingBypassPatch.xml */,
+				2AAF50CA0F8E563B009D7382 /* KinemeGLCameraPatch.xml */,
+				2BCCD4940E8739C400EA1FF1 /* Private */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				2B109E031561FB56001AC445 /* KinemeGLSplinePatchUI.nib */,
+				2B3821CE11481C0D00F585D9 /* KinemeGLStructureRendererPatch.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B6830981144283100625C08 /* SenTestingKit.framework */,
+				F1111F80089D19ED00C2708E /* Quartz.framework */,
+				F1111F7C089D19DD00C2708E /* OpenGL.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* GLTools.plugin */,
+				2B6830871144272100625C08 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0D71030E891FF900138C36 /* SuperGLSL */ = {
+			isa = PBXGroup;
+			children = (
+				2AF438250E819384005391BE /* KinemeSuperGLSLGridPatch.m */,
+				2AF438240E819384005391BE /* KinemeSuperGLSLGridPatch.h */,
+			);
+			name = SuperGLSL;
+			sourceTree = "<group>";
+		};
+		2A0D71040E89203300138C36 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1D4D50D0F593800C2695E /* KinemeGLGridPatch.h */,
+				2AF1D4D60D0F593800C2695E /* KinemeGLGridPatch.m */,
+				2AF1D4D70D0F593800C2695E /* KinemeGLGridRendererPatch.h */,
+				2AF1D4D80D0F593800C2695E /* KinemeGLGridRendererPatch.m */,
+				2A78661B0D3D8F8F0074F108 /* KinemeGLReadPixelsPatch.h */,
+				2A78661C0D3D8F900074F108 /* KinemeGLReadPixelsPatch.m */,
+				2AAAC04B103B40C200A1C619 /* KinemeGLGridGeneratorPatch.h */,
+				2AAAC04C103B40C200A1C619 /* KinemeGLGridGeneratorPatch.m */,
+				2AAAC04E103B40CE00A1C619 /* KinemeGLGridEditorPatch.h */,
+				2AAAC04F103B40CE00A1C619 /* KinemeGLGridEditorPatch.m */,
+				2A68FF41109606720081985F /* KinemeGLRenderInImageWithDepthPatch.h */,
+				2A68FF42109606720081985F /* KinemeGLRenderInImageWithDepthPatch.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		2A0D71050E89205600138C36 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				2BE4207C10911C1100AEF269 /* Projection */,
+				2BE4207B10911C0A00AEF269 /* Modelview */,
+				2ABF828B0E6E3ABB007C731B /* KinemeGLLoadMatrixPatch.h */,
+				2ABF828C0E6E3ABB007C731B /* KinemeGLLoadMatrixPatch.m */,
+			);
+			name = Matrix;
+			sourceTree = "<group>";
+		};
+		2B536E280F9FED5100687FBB /* Depth Sort */ = {
+			isa = PBXGroup;
+			children = (
+				2B536F600FA12A3D00687FBB /* KinemeGLRenderer.h */,
+				2B536E290F9FEDA100687FBB /* KinemeGLDepthSortEnvironmentPatch.h */,
+				2B536E2A0F9FEDA100687FBB /* KinemeGLDepthSortEnvironmentPatch.m */,
+				2B536E2C0F9FEDB000687FBB /* KinemeGLDepthSortSpritePatch.h */,
+				2B536E2D0F9FEDB000687FBB /* KinemeGLDepthSortSpritePatch.m */,
+			);
+			name = "Depth Sort";
+			sourceTree = "<group>";
+		};
+		2B68307C114426CA00625C08 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B68308B1144274600625C08 /* UnitTests.h */,
+				2B68308C1144274600625C08 /* UnitTests.m */,
+				2B6830881144272200625C08 /* UnitTests-Info.plist */,
+			);
+			name = UnitTests;
+			sourceTree = "<group>";
+		};
+		2BBF37140E847F5400686C96 /* Spline */ = {
+			isa = PBXGroup;
+			children = (
+				2BBF37150E847F6500686C96 /* KinemeGLSplinePatch.h */,
+				2BBF37160E847F6500686C96 /* KinemeGLSplinePatch.m */,
+				2BBF37170E847F6500686C96 /* KinemeGLSplinePatchUI.h */,
+				2BBF37180E847F6500686C96 /* KinemeGLSplinePatchUI.m */,
+			);
+			name = Spline;
+			sourceTree = "<group>";
+		};
+		2BCCD4940E8739C400EA1FF1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				2AAAC055103BA53F00A1C619 /* KinemeGLGridGeneratorPatch.xml */,
+				2AAAC057103BA55D00A1C619 /* KinemeGLGridEditorPatch.xml */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		2BCCD4C70E887D2400EA1FF1 /* Point + Line + Triangle + Quad */ = {
+			isa = PBXGroup;
+			children = (
+				2AC947900FC18ED800E83932 /* KinemeGLCubeStructurePatch.h */,
+				2AC947910FC18ED800E83932 /* KinemeGLCubeStructurePatch.m */,
+				F1481780089E5F53006FD276 /* KinemeGLPointPatch.h */,
+				F1481781089E5F53006FD276 /* KinemeGLPointPatch.m */,
+				2AD91E100D730D8200A22B14 /* KinemeGLPointStructurePatch.h */,
+				2AD91E110D730D8200A22B14 /* KinemeGLPointStructurePatch.m */,
+				2ADBC76D0C8357BA00393831 /* KinemeGLLinePatch.h */,
+				2ADBC76E0C8357BA00393831 /* KinemeGLLinePatch.m */,
+				2AD91E290D73569E00A22B14 /* KinemeGLLineStructurePatch.h */,
+				2AD91E2A0D73569E00A22B14 /* KinemeGLLineStructurePatch.m */,
+				2ADBC7B20C83842400393831 /* KinemeGLTrianglePatch.h */,
+				2ADBC7B30C83842400393831 /* KinemeGLTrianglePatch.m */,
+				2BCCD4AF0E8878C300EA1FF1 /* KinemeGLTriangleStructurePatch.h */,
+				2BCCD4B00E8878C300EA1FF1 /* KinemeGLTriangleStructurePatch.m */,
+				2A224AAF0C84ECDF004FCE24 /* KinemeGLQuadPatch.h */,
+				2A224AB00C84ECDF004FCE24 /* KinemeGLQuadPatch.m */,
+				2BCCD4ED0E88895D00EA1FF1 /* KinemeGLQuadStructurePatch.h */,
+				2BCCD4EE0E88895D00EA1FF1 /* KinemeGLQuadStructurePatch.m */,
+				2ABB77D90F24095A00B179D5 /* KinemeGLLineExpressionPatch.h */,
+				2ABB77DA0F24095A00B179D5 /* KinemeGLLineExpressionPatch.m */,
+			);
+			name = "Point + Line + Triangle + Quad";
+			sourceTree = "<group>";
+		};
+		2BE4207B10911C0A00AEF269 /* Modelview */ = {
+			isa = PBXGroup;
+			children = (
+				2ABF82B20E6E4502007C731B /* KinemeGLLookAtPatch.h */,
+				2ABF82B30E6E4502007C731B /* KinemeGLLookAtPatch.m */,
+				2AAF50C50F8E55EB009D7382 /* KinemeGLCameraPatch.h */,
+				2AAF50C60F8E55EB009D7382 /* KinemeGLCameraPatch.m */,
+				2BB7A6650CDB5A6600EDED72 /* KinemeGLMultMatrixPatch.h */,
+				2BB7A6660CDB5A6600EDED72 /* KinemeGLMultMatrixPatch.m */,
+				2A44FAF70FCA55DC0040222D /* KinemeGLInverseRotation.h */,
+				2A44FAF80FCA55DC0040222D /* KinemeGLInverseRotation.m */,
+				2B3821C9114816DD00F585D9 /* KinemeGLStructureRendererPatch.h */,
+				2B3821CA114816DD00F585D9 /* KinemeGLStructureRendererPatch.m */,
+			);
+			name = Modelview;
+			sourceTree = "<group>";
+		};
+		2BE4207C10911C1100AEF269 /* Projection */ = {
+			isa = PBXGroup;
+			children = (
+				2A8BF0AC0D03DF7300546336 /* KinemeGLFieldOfViewPatch.h */,
+				2A8BF0AD0D03DF7300546336 /* KinemeGLFieldOfViewPatch.m */,
+				2AA4F2940D141B4300D36F3E /* KinemeGLOrthoPatch.h */,
+				2AA4F2950D141B4300D36F3E /* KinemeGLOrthoPatch.m */,
+				2BE420681090B35E00AEF269 /* KinemeGLFrustumPatch.h */,
+				2BE420691090B35E00AEF269 /* KinemeGLFrustumPatch.m */,
+				2BE4208410911E3E00AEF269 /* KinemeGLStereoEnvironmentPatch.h */,
+				2BE4208510911E3E00AEF269 /* KinemeGLStereoEnvironmentPatch.m */,
+			);
+			name = Projection;
+			sourceTree = "<group>";
+		};
+		2BF7FC360C8B5C7800CCD27C /* Patches */ = {
+			isa = PBXGroup;
+			children = (
+				2A0D71050E89205600138C36 /* Matrix */,
+				2B536E280F9FED5100687FBB /* Depth Sort */,
+				2A0D71040E89203300138C36 /* Private */,
+				2A0D71030E891FF900138C36 /* SuperGLSL */,
+				2BCCD4C70E887D2400EA1FF1 /* Point + Line + Triangle + Quad */,
+				2BBF37140E847F5400686C96 /* Spline */,
+				2BF7FD220C8BBB6B00CCD27C /* KinemeGLContextInfoPatch.h */,
+				2BF7FD230C8BBB6B00CCD27C /* KinemeGLContextInfoPatch.m */,
+				2AA071D50C90A1ED00730A21 /* KinemeGLPolygonModePatch.h */,
+				2AA071D60C90A1ED00730A21 /* KinemeGLPolygonModePatch.m */,
+				2AEF10C10D1321BF0081EE87 /* KinemeGLDepthBufferAlphaThresholdPatch.h */,
+				2AEF10C20D1321BF0081EE87 /* KinemeGLDepthBufferAlphaThresholdPatch.m */,
+				2AA4F3090D143FC200D36F3E /* KinemeGLLogicOpPatch.h */,
+				2AA4F30A0D143FC200D36F3E /* KinemeGLLogicOpPatch.m */,
+				2ABF827D0E6E3695007C731B /* KinemeGLColorMaskPatch.h */,
+				2ABF827E0E6E3695007C731B /* KinemeGLColorMaskPatch.m */,
+				2AC562D50E71E6B200188E6D /* KinemeGLScalePatch.h */,
+				2AC562D60E71E6B200188E6D /* KinemeGLScalePatch.m */,
+				2AF437E90E8176EF005391BE /* KinemeGLBlendEquationPatch.h */,
+				2AF437EA0E8176EF005391BE /* KinemeGLBlendEquationPatch.m */,
+				2AF438910E81FF91005391BE /* KinemeGLShadeModelPatch.h */,
+				2BB585D411C348180042A2FA /* KinemeGLLightingBypassPatch.h */,
+				2BB585D511C348180042A2FA /* KinemeGLLightingBypassPatch.m */,
+				2AF438920E81FF91005391BE /* KinemeGLShadeModelPatch.m */,
+				2AF4389F0E820356005391BE /* KinemeGLViewportPatch.h */,
+				2AF438A00E820356005391BE /* KinemeGLViewportPatch.m */,
+				2AF438C90E820933005391BE /* KinemeGLClearDepthPatch.h */,
+				2AF438CA0E820933005391BE /* KinemeGLClearDepthPatch.m */,
+				2A0DA8E10E9D96A400C815DE /* KinemeGLTorusPatch.h */,
+				2A0DA8E20E9D96A400C815DE /* KinemeGLTorusPatch.m */,
+				2AF3051C0EACA92D0012D179 /* KinemeGLPolygonOffsetPatch.h */,
+				2AF3051D0EACA92D0012D179 /* KinemeGLPolygonOffsetPatch.m */,
+				2A4D567A0EF9C258005BD853 /* KinemeGLGenerateMipMapPatch.h */,
+				2A4D567B0EF9C258005BD853 /* KinemeGLGenerateMipMapPatch.m */,
+				2AC4F71E0F2690180004F6AF /* KinemeGLScissorPatch.h */,
+				2AC4F71F0F2690180004F6AF /* KinemeGLScissorPatch.m */,
+			);
+			name = Patches;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B6830861144272100625C08 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B68308A1144272200625C08 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				2B6830821144272100625C08 /* Resources */,
+				2B6830831144272100625C08 /* Sources */,
+				2B6830841144272100625C08 /* Frameworks */,
+				2B6830851144272100625C08 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 2B6830871144272100625C08 /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D5B49AC048680CD000E48DA /* GLTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF69CC809F19DD300CAA391 /* Build configuration list for PBXNativeTarget "GLTools" */;
+			buildPhases = (
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				8D5B49AF048680CD000E48DA /* Resources */,
+				2A0DCEEA0F3B6270007DA078 /* Post Process */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLTools;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = OpenGLPrimitivesPatch;
+			productReference = 8D5B49B6048680CD000E48DA /* GLTools.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BF69CCC09F19DD300CAA391 /* Build configuration list for PBXProject "GLTools" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* OpenGLPrimitivesPatch */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* GLTools */,
+				2B6830861144272100625C08 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B6830821144272100625C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAF50CB0F8E563B009D7382 /* KinemeGLCameraPatch.xml in Resources */,
+				2AAAC056103BA53F00A1C619 /* KinemeGLGridGeneratorPatch.xml in Resources */,
+				2AAAC058103BA55D00A1C619 /* KinemeGLGridEditorPatch.xml in Resources */,
+				2B3821CF11481C0D00F585D9 /* KinemeGLStructureRendererPatch.xml in Resources */,
+				2BB585D811C348180042A2FA /* KinemeGLLightingBypassPatch.xml in Resources */,
+				2B3BE2E91561FB1200F2A216 /* KinemeGLBlendEquationPatch.xml in Resources */,
+				2B3BE2EA1561FB1200F2A216 /* KinemeGLClearDepthPatch.xml in Resources */,
+				2B3BE2EB1561FB1200F2A216 /* KinemeGLColorMaskPatch.xml in Resources */,
+				2B3BE2EC1561FB1200F2A216 /* KinemeGLContextInfoPatch.xml in Resources */,
+				2B3BE2ED1561FB1200F2A216 /* KinemeGLCubeStructurePatch.xml in Resources */,
+				2B3BE2EE1561FB1200F2A216 /* KinemeGLDepthBufferAlphaThresholdPatch.xml in Resources */,
+				2B3BE2EF1561FB1200F2A216 /* KinemeGLDepthSortEnvironmentPatch.xml in Resources */,
+				2B3BE2F01561FB1200F2A216 /* KinemeGLDepthSortSpritePatch.xml in Resources */,
+				2B3BE2F11561FB1200F2A216 /* KinemeGLFieldOfViewPatch.xml in Resources */,
+				2B3BE2F21561FB1200F2A216 /* KinemeGLFrustumPatch.xml in Resources */,
+				2B3BE2F31561FB1200F2A216 /* KinemeGLGenerateMipMapPatch.xml in Resources */,
+				2B3BE2F41561FB1200F2A216 /* KinemeGLGridPatch.xml in Resources */,
+				2B3BE2F51561FB1200F2A216 /* KinemeGLGridRendererPatch.xml in Resources */,
+				2B3BE2F61561FB1200F2A216 /* KinemeGLInverseRotation.xml in Resources */,
+				2B3BE2F81561FB1200F2A216 /* KinemeGLLineExpressionPatch.xml in Resources */,
+				2B3BE2F91561FB1200F2A216 /* KinemeGLLinePatch.xml in Resources */,
+				2B3BE2FA1561FB1200F2A216 /* KinemeGLLineStructurePatch.xml in Resources */,
+				2B3BE2FB1561FB1200F2A216 /* KinemeGLLoadMatrixPatch.xml in Resources */,
+				2B3BE2FC1561FB1200F2A216 /* KinemeGLLogicOpPatch.xml in Resources */,
+				2B3BE2FD1561FB1200F2A216 /* KinemeGLLookAtPatch.xml in Resources */,
+				2B3BE2FE1561FB1200F2A216 /* KinemeGLMultMatrixPatch.xml in Resources */,
+				2B3BE2FF1561FB1200F2A216 /* KinemeGLOrthoPatch.xml in Resources */,
+				2B3BE3001561FB1200F2A216 /* KinemeGLPointPatch.xml in Resources */,
+				2B3BE3011561FB1200F2A216 /* KinemeGLPointStructurePatch.xml in Resources */,
+				2B3BE3021561FB1200F2A216 /* KinemeGLPolygonModePatch.xml in Resources */,
+				2B3BE3031561FB1200F2A216 /* KinemeGLPolygonOffsetPatch.xml in Resources */,
+				2B3BE3041561FB1200F2A216 /* KinemeGLQuadPatch.xml in Resources */,
+				2B3BE3051561FB1200F2A216 /* KinemeGLQuadStructurePatch.xml in Resources */,
+				2B3BE3061561FB1200F2A216 /* KinemeGLReadPixelsPatch.xml in Resources */,
+				2B3BE3071561FB1200F2A216 /* KinemeGLRenderInImageWithDepthPatch.xml in Resources */,
+				2B3BE3081561FB1200F2A216 /* KinemeGLScalePatch.xml in Resources */,
+				2B3BE3091561FB1200F2A216 /* KinemeGLScissorPatch.xml in Resources */,
+				2B3BE30A1561FB1200F2A216 /* KinemeGLShadeModelPatch.xml in Resources */,
+				2B3BE30B1561FB1200F2A216 /* KinemeGLSplinePatch.xml in Resources */,
+				2B3BE30C1561FB1200F2A216 /* KinemeGLStereoEnvironmentPatch.xml in Resources */,
+				2B3BE30D1561FB1200F2A216 /* KinemeGLTorusPatch.xml in Resources */,
+				2B3BE30E1561FB1200F2A216 /* KinemeGLTrianglePatch.xml in Resources */,
+				2B3BE30F1561FB1200F2A216 /* KinemeGLTriangleStructurePatch.xml in Resources */,
+				2B3BE3101561FB1200F2A216 /* KinemeGLViewportPatch.xml in Resources */,
+				2B3BE3111561FB1200F2A216 /* KinemeSuperGLSLGridPatch.xml in Resources */,
+				2B109E041561FB56001AC445 /* KinemeGLSplinePatchUI.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A0DCEEA0F3B6270007DA078 /* Post Process */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Post Process";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "php /Library/Frameworks/SkankySDK.framework/Resources/plugin-postprocess.php \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"\n";
+		};
+		2B6830851144272100625C08 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6830831144272100625C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6830EF1144792A00625C08 /* KinemeGLPointPatch.m in Sources */,
+				2B6830EE1144791E00625C08 /* KinemeGLStereoEnvironmentPatch.m in Sources */,
+				2B68308D1144274600625C08 /* UnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1481782089E5F53006FD276 /* KinemeGLPointPatch.m in Sources */,
+				F1481793089E5FE3006FD276 /* GLToolsPrincipal.m in Sources */,
+				2ADBC76F0C8357BA00393831 /* KinemeGLLinePatch.m in Sources */,
+				2ADBC7B40C83842400393831 /* KinemeGLTrianglePatch.m in Sources */,
+				2A224AB10C84ECDF004FCE24 /* KinemeGLQuadPatch.m in Sources */,
+				2BF7FD240C8BBB6B00CCD27C /* KinemeGLContextInfoPatch.m in Sources */,
+				2AA071D70C90A1ED00730A21 /* KinemeGLPolygonModePatch.m in Sources */,
+				2BB7A6670CDB5A6600EDED72 /* KinemeGLMultMatrixPatch.m in Sources */,
+				2A8BF0AE0D03DF7300546336 /* KinemeGLFieldOfViewPatch.m in Sources */,
+				2AF1D4D90D0F593800C2695E /* KinemeGLGridPatch.m in Sources */,
+				2AF1D4DA0D0F593800C2695E /* KinemeGLGridRendererPatch.m in Sources */,
+				2AEF10C30D1321BF0081EE87 /* KinemeGLDepthBufferAlphaThresholdPatch.m in Sources */,
+				2AA4F30B0D143FC200D36F3E /* KinemeGLLogicOpPatch.m in Sources */,
+				2A78661D0D3D8F900074F108 /* KinemeGLReadPixelsPatch.m in Sources */,
+				2AFC3FE40D6C70FB007C6C80 /* KinemeGLOrthoPatch.m in Sources */,
+				2AD91E120D730D8200A22B14 /* KinemeGLPointStructurePatch.m in Sources */,
+				2AD91E2B0D73569F00A22B14 /* KinemeGLLineStructurePatch.m in Sources */,
+				2ABF827F0E6E3695007C731B /* KinemeGLColorMaskPatch.m in Sources */,
+				2ABF828D0E6E3ABB007C731B /* KinemeGLLoadMatrixPatch.m in Sources */,
+				2ABF82B40E6E4502007C731B /* KinemeGLLookAtPatch.m in Sources */,
+				2AC562D70E71E6B200188E6D /* KinemeGLScalePatch.m in Sources */,
+				2AF437EB0E8176EF005391BE /* KinemeGLBlendEquationPatch.m in Sources */,
+				2AF438260E819384005391BE /* KinemeSuperGLSLGridPatch.m in Sources */,
+				2AF438930E81FF91005391BE /* KinemeGLShadeModelPatch.m in Sources */,
+				2AF438A10E820356005391BE /* KinemeGLViewportPatch.m in Sources */,
+				2AF438CB0E820933005391BE /* KinemeGLClearDepthPatch.m in Sources */,
+				2BBF37190E847F6500686C96 /* KinemeGLSplinePatch.m in Sources */,
+				2BBF371A0E847F6500686C96 /* KinemeGLSplinePatchUI.m in Sources */,
+				2BCCD4B10E8878C300EA1FF1 /* KinemeGLTriangleStructurePatch.m in Sources */,
+				2BCCD4EF0E88895D00EA1FF1 /* KinemeGLQuadStructurePatch.m in Sources */,
+				2A0DA8E30E9D96A400C815DE /* KinemeGLTorusPatch.m in Sources */,
+				2AF3051E0EACA92D0012D179 /* KinemeGLPolygonOffsetPatch.m in Sources */,
+				2A4D567C0EF9C258005BD853 /* KinemeGLGenerateMipMapPatch.m in Sources */,
+				2ABB77DB0F24095A00B179D5 /* KinemeGLLineExpressionPatch.m in Sources */,
+				2AC4F7200F2690180004F6AF /* KinemeGLScissorPatch.m in Sources */,
+				2AAF50C70F8E55EB009D7382 /* KinemeGLCameraPatch.m in Sources */,
+				2B536E2B0F9FEDA100687FBB /* KinemeGLDepthSortEnvironmentPatch.m in Sources */,
+				2B536E2E0F9FEDB000687FBB /* KinemeGLDepthSortSpritePatch.m in Sources */,
+				2AC947920FC18ED800E83932 /* KinemeGLCubeStructurePatch.m in Sources */,
+				2A44FAF90FCA55DC0040222D /* KinemeGLInverseRotation.m in Sources */,
+				2AAAC04D103B40C200A1C619 /* KinemeGLGridGeneratorPatch.m in Sources */,
+				2AAAC050103B40CE00A1C619 /* KinemeGLGridEditorPatch.m in Sources */,
+				2BE4206A1090B35E00AEF269 /* KinemeGLFrustumPatch.m in Sources */,
+				2BE4208610911E3E00AEF269 /* KinemeGLStereoEnvironmentPatch.m in Sources */,
+				2A68FF43109606720081985F /* KinemeGLRenderInImageWithDepthPatch.m in Sources */,
+				2B3821CB114816DD00F585D9 /* KinemeGLStructureRendererPatch.m in Sources */,
+				2BB585D711C348180042A2FA /* KinemeGLLightingBypassPatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B6830891144272200625C08 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					x86_64,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GLTools_Prefix.pch;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				TEST_HOST = "$(DEVELOPER_DIR)/Applications/Quartz Composer.app/Contents/MacOS/Quartz Composer";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Default;
+		};
+		2BF69CCB09F19DD300CAA391 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GLTools_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = GLTools;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		2BF69CCF09F19DD300CAA391 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_FAST_MATH = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				LLVM_LTO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.5;
+				SYMROOT = $TMPDIR/$FULL_PRODUCT_NAME/build;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B68308A1144272200625C08 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6830891144272200625C08 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2BF69CC809F19DD300CAA391 /* Build configuration list for PBXNativeTarget "GLTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF69CCB09F19DD300CAA391 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2BF69CCC09F19DD300CAA391 /* Build configuration list for PBXProject "GLTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF69CCF09F19DD300CAA391 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

@@ -1,0 +1,4 @@
+#ifdef __OBJC__
+	#import <SkankySDK/SkankySDK.h>
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders a single OpenGL Triangle at a user-specified location with a user-specified color.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Triangle</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image on the triangle</string>
+			<key>name</key>
+			<string>Image</string>
+		</dict>
+		<key>inputX1</key>
+		<dict>
+			<key>description</key>
+			<string>Point 1's X Coordinate</string>
+			<key>name</key>
+			<string>X1 Position</string>
+		</dict>
+		<key>inputY1</key>
+		<dict>
+			<key>description</key>
+			<string>Point 1's Y Coordinate</string>
+			<key>name</key>
+			<string>Y1 Position</string>
+		</dict>
+		<key>inputZ1</key>
+		<dict>
+			<key>description</key>
+			<string>Point 1's Z Coordinate</string>
+			<key>name</key>
+			<string>Z1 Position</string>
+		</dict>
+		<key>inputU1</key>
+		<dict>
+			<key>description</key>
+			<string>Point 1's U Texture Coordinate</string>
+			<key>name</key>
+			<string>U1 Position</string>
+		</dict>
+		<key>inputV1</key>
+		<dict>
+			<key>description</key>
+			<string>Point 1's V Texture Coordinate</string>
+			<key>name</key>
+			<string>V1 Position</string>
+		</dict>
+		<key>inputX2</key>
+		<dict>
+			<key>description</key>
+			<string>Point 2's X Coordinate</string>
+			<key>name</key>
+			<string>X2 Position</string>
+		</dict>
+		<key>inputY2</key>
+		<dict>
+			<key>description</key>
+			<string>Point 2's Y Coordinate</string>
+			<key>name</key>
+			<string>Y2 Position</string>
+		</dict>
+		<key>inputZ2</key>
+		<dict>
+			<key>description</key>
+			<string>Point 2's Z Coordinate</string>
+			<key>name</key>
+			<string>Z2 Position</string>
+		</dict>
+		<key>inputU2</key>
+		<dict>
+			<key>description</key>
+			<string>Point 2's U Texture Coordinate</string>
+			<key>name</key>
+			<string>U2 Position</string>
+		</dict>
+		<key>inputV2</key>
+		<dict>
+			<key>description</key>
+			<string>Point 2's V Texture Coordinate</string>
+			<key>name</key>
+			<string>V2 Position</string>
+		</dict>
+		<key>inputX3</key>
+		<dict>
+			<key>description</key>
+			<string>Point 3's X Coordinate</string>
+			<key>name</key>
+			<string>X3 Position</string>
+		</dict>
+		<key>inputY3</key>
+		<dict>
+			<key>description</key>
+			<string>Point 3's Y Coordinate</string>
+			<key>name</key>
+			<string>Y3 Position</string>
+		</dict>
+		<key>inputZ3</key>
+		<dict>
+			<key>description</key>
+			<string>Point 3's Z Coordinate</string>
+			<key>name</key>
+			<string>Z3 Position</string>
+		</dict>
+		<key>inputU3</key>
+		<dict>
+			<key>description</key>
+			<string>Point 3's U Texture Coordinate</string>
+			<key>name</key>
+			<string>U3 Position</string>
+		</dict>
+		<key>inputV3</key>
+		<dict>
+			<key>description</key>
+			<string>Point 3's V Texture Coordinate</string>
+			<key>name</key>
+			<string>V3 Position</string>
+		</dict>
+		<key>inputColor1</key>
+		<dict>
+			<key>description</key>
+			<string>Point 1's Color</string>
+			<key>name</key>
+			<string>Color 1</string>
+		</dict>
+		<key>inputColor2</key>
+		<dict>
+			<key>description</key>
+			<string>Point 2's Color</string>
+			<key>name</key>
+			<string>Color 2</string>
+		</dict>
+		<key>inputColor3</key>
+		<dict>
+			<key>description</key>
+			<string>Point 3's Color</string>
+			<key>name</key>
+			<string>Color 3</string>
+		</dict>
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>

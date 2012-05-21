@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme GL</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme GL</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch renders a series of Cubes specified by the Input Point structure.
+
+The Input Points structure should contain a series of 3-element structures, one for each point.  Points can be specified as either the first three array elements ([0], [1], and [2]), or capitalized named values ('X', 'Y', and 'Z').
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>GL Cube Structure</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputPoints</key>
+		<dict>
+			<key>description</key>
+			<string>A structure containing a series of 3-element structures, one for each point.
+Points can be specified as either the first three array elements ([0], [1], and [2]),
+or capitalized named values ('X', 'Y', and 'Z').</string>
+			<key>name</key>
+			<string>Input Points</string>
+		</dict>
+		<key>inputDefaultSize</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's Size</string>
+			<key>name</key>
+			<string>Size</string>
+		</dict>
+		<key>inputColor1</key>
+		<dict>
+			<key>description</key>
+			<string>The Points' Starting Color</string>
+			<key>name</key>
+			<string>Start Color</string>
+		</dict>
+		<key>inputColor2</key>
+		<dict>
+			<key>description</key>
+			<string>The Point's Ending Color</string>
+			<key>name</key>
+			<string>End Color</string>
+		</dict>		
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+	</dict>
+</dict>
+</plist>
